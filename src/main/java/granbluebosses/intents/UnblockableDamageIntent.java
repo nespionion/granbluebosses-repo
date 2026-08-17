@@ -1,0 +1,105 @@
+package granbluebosses.intents;
+
+import actlikeit.RazIntent.CustomIntent;
+import basemod.ReflectionHacks;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.localization.UIStrings;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.EnemyMoveInfo;
+import granbluebosses.GranblueBosses;
+
+import static granbluebosses.GranblueBosses.makeID;
+import static granbluebosses.intents.enums.CustomIntentEnums.HP_LOSS_ATTACK;
+
+public class UnblockableDamageIntent extends CustomIntent {
+
+
+    public static final String ID;
+
+    //For Localization. See https://github.com/daviscook477/BaseMod/wiki/Custom-Strings for more infos on that.
+    private static final UIStrings uiStrings;
+    private static final String[] TEXT;
+
+    /**
+     * First parameter (Intent) is your Intent from the class above
+     * Second one (String) is the headline of your intent in its tooltip window when you hover over the enemy
+     * Third one (String) contains the path to the image you want floating above the enemy head (128x128 with plenty of spacing, just like with custom relics)
+     * Fourth one (String) contains the path to the image you want in the tooltip window (64x64, no spacing needed)
+     * Fifth one (Optional String) is a String that is displayed in the tooltip window if you don't override the description() Method.
+     */
+    public UnblockableDamageIntent() {
+        super(HP_LOSS_ATTACK, TEXT[0],
+                GranblueBosses.intentPath("UnblockableDamageIntent.png"), //These are just the paths to my images.
+                GranblueBosses.intentPath("UnblockableDamageIntentL.png"),  //Will differ for yours, of course.
+                TEXT[1]);
+    }
+
+    /**
+     * (Optional)
+     * The return value of this function is displayed in the tooltip window.
+     * If you do not override this, the fifth parameter of CustomIntent's constructor will be displayed instead.
+     */
+    @Override
+    public String description(AbstractMonster mo) {
+        EnemyMoveInfo move = ReflectionHacks.getPrivate(mo, AbstractMonster.class, "move");
+        int hitNum = ReflectionHacks.getPrivate(mo, AbstractMonster.class, "intentMultiAmt");
+        int dmgNum = move.baseDamage;
+
+        String result;
+
+        if (hitNum == -1 || dmgNum == -1){
+            result = TEXT[1];
+        } else if (hitNum == 1){
+            result = TEXT[2] + dmgNum + TEXT[3];
+        } else {
+            result = TEXT[4] + hitNum + TEXT[5] + dmgNum + TEXT[6];
+        }
+
+        return result;
+    }
+
+    /**
+     * (Optional)
+     * If you want custom strings to display where the damage number usually is, you can use this method.
+     * It adjusts for stringlengths above 5 by displaying the message to the left, so it stays centered on your intent.
+     * You can put in newlines like in the example with " NL ", if you need that.
+     */
+    @Override
+    public String damageNumber(AbstractMonster am) {
+        EnemyMoveInfo move = ReflectionHacks.getPrivate(am, AbstractMonster.class, "move");
+        if (move != null) return move.baseDamage + "";
+        else return "Error";
+    }
+
+    /**
+     * (Optional)
+     * This allows you to add visual effects like the little green swirls on the debuff intent.
+     * The return value determins the interval how often it is called, in seconds.
+     */
+//    @Override
+//    public float updateVFXInInterval(AbstractMonster mo, ArrayList<AbstractGameEffect> intentVfx) {
+//        AbstractGameEffect sb = new BuffParticleEffect(mo.intentHb.cX, mo.intentHb.cY);
+//        sb.renderBehind = false; //True means it's rendered behind the intent icon, if possible.
+//
+//        intentVfx.add(sb); //The important part.
+//        //intentVfx is a private field in mo, I added it to the methodparams so people wouldn't have to add Reflectionhacks themselves.
+//
+//        return 2.0F; //Executed every 2 seconds.
+//    }
+    //If you do not like this method of updating VFX for whatever reason, you can also override
+    /*
+    @Override
+    public void updateVFX(AbstractMonster mo) {
+        ...
+    }
+    */
+    //But why would you? The one above does all the work for you.
+
+
+    //Standard procedure for getting localization strings.
+    static {
+        ID = makeID(UnblockableDamageIntent.class.getSimpleName());
+        uiStrings = CardCrawlGame.languagePack.getUIString(ID);
+        TEXT = uiStrings.TEXT;
+    }
+}

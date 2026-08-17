@@ -1,0 +1,785 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:BlueCrystal": {
+    "NAME": "Blue Crystal",
+    "FLAVOR": "A crystal that brilliantly shines in the light.",
+    "DESCRIPTIONS": [
+      "The first time each combat that you gain #yStrength, #yDexterity, #yFocus, or #yMantra, gain #b1 more."
+    ]
+  },
+  "${modID}:BlueCrystalBelial": {
+    "NAME": "Blue Crystal",
+    "FLAVOR": "A crystal that brilliantly shines in the light.",
+    "DESCRIPTIONS": [
+      "Gain #b1 Strength, #b1 Dexterity, and #b1 Focus at battle start. Gain #b3 Weak and Vulnerable at battle start."
+    ]
+  },
+  "${modID}:BlueCrystalYatima": {
+    "NAME": "Blue Crystal",
+    "FLAVOR": "A crystal that brilliantly shines in the light.",
+    "DESCRIPTIONS": [
+      "For the first #b3 turns of each combat, the first card you play each turn is played twice."
+    ]
+  },
+  "${modID}:ShieldOfTenets": {
+    "NAME": "Shield Of Tenets",
+    "FLAVOR": "A relic representing the power of the god of the skies.",
+    "DESCRIPTIONS": [
+      "Whenever you add an #yRare card to your deck, #yUpgrade it."
+    ]
+  },
+  "${modID}:SwordOfBahamut": {
+    "NAME": "Sword Of Bahamut",
+    "FLAVOR": "This sabre was imbued with terrified admiration of the sharp claws of the Great Dragon. Its deadly blade can gouge out the core of the earth itself, flinging it far off into the horizon.",
+    "DESCRIPTIONS": [
+      "Gain #b1 #yStrength at combat start."
+    ]
+  },
+  "${modID}:SwordOfBahamutCoda": {
+    "NAME": "Sword Of Bahamut Coda",
+    "FLAVOR": "Molded after the sharp claws of the Great Dragon, an ultimate sword created to inspire fear in all. If used to cut through the earth, it could send the world plumetting down to the depths of the skies.",
+    "DESCRIPTIONS": [
+      "Gain #b4 Max HP. Gain #b2 #yStrength at combat start."
+    ]
+  },
+  "${modID}:DaggerOfBahamut": {
+    "NAME": "Dagger Of Bahamut",
+    "FLAVOR": "This dagger was imbued with terrified admiration of the powerful fangs of the Great Dragon. Its immense power can sever the threads of fate, instantly erasing its victim's existence.",
+    "DESCRIPTIONS": [
+      "Gain #b1 #yDexterity at combat start."
+    ]
+  },
+  "${modID}:DaggerOfBahamutCoda": {
+    "NAME": "Dagger Of Bahamut Coda",
+    "FLAVOR": "This dagger was created out of admiration for the powerful fangs of the Great Dragon. A single strike can foretell the end of its victim as it rips through the very fabric of fate, leaving no trace that the victim ever existed.",
+    "DESCRIPTIONS": [
+      "Gain #b4 Max HP. Gain #b2 #yDexterity at combat start."
+    ]
+  },
+  "${modID}:StaffOfBahamut": {
+    "NAME": "Staff Of Bahamut",
+    "FLAVOR": "This wand was imbued with terrified awe at the expansive wisdom of the Great Dragon. It effortlessly commands a despair far beyond human comprehension.",
+    "DESCRIPTIONS": [
+      "Gain #b1 #yFocus at combat start."
+    ]
+  },
+  "${modID}:StaffOfBahamutCoda": {
+    "NAME": "Staff Of Bahamut Coda",
+    "FLAVOR": "Molded after the sublime intelligence of the Great Dragon, an ultimate staff created to inspire fear in all. It's supreme wisdom far surpassing that of a human's winds instintively, engulfing all of eternity and truth.",
+    "DESCRIPTIONS": [
+      "Gain #b4 Max HP. Gain #b2 #yFocus at combat start."
+    ]
+  },
+  "${modID}:HarpOfBahamut": {
+    "NAME": "Harp Of Bahamut",
+    "FLAVOR": "This harp was imbued with terrified admiration of the dark wings of the Great Dragon. Its destructive notes drive all who hear them mad and cause chaos throughout the skies.",
+    "DESCRIPTIONS": [
+      "Add a #yMiracle to your hard at combat start."
+    ]
+  },
+  "${modID}:HarpOfBahamutCoda": {
+    "NAME": "Harp Of Bahamut Coda",
+    "FLAVOR": "This harp represents the unique shape of the supreme dragon's wings. A melody plucked on this harp will drive all who hear it to madness and summon catastrophic tornadoes.",
+    "DESCRIPTIONS": [
+      "Gain #b4 Max HP. Add a #yMiracle+ to your hard at combat start."
+    ]
+  },
+  "${modID}:ShieldOfLamentation": {
+    "NAME": "Shield Of Lamentation",
+    "FLAVOR": "A shield belonging to a knight descended from far above in order to reform a world stained in disorder.",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack, the all enemies lose ",
+      " additional HP. NL Deal 1 additional damage for every 10 Ascension levels."
+    ]
+  },
+  "${modID}:CosmicSword": {
+    "NAME": "Cosmic Sword",
+    "FLAVOR": "Sword of balance that governs chaos. A young girl with red pupils weaves the power of an enslaved dragon, crystallizing it with a skybound prayer. The radiance gives way to dawn, instilling order to a troubled world.",
+    "DESCRIPTIONS": [
+      "Whenever you play a #yPower, #yAttack, and #ySkill in the same turn, double all damage your #yAttacks for the rest of the turn."
+    ]
+  },
+  "${modID}:AzureFeather": {
+    "NAME": "Azure Feather",
+    "FLAVOR": "A deep blue feather.",
+    "DESCRIPTIONS": [
+      "For the first #b3 turns of each combat, the first #yAttack you play each turn #gheals you ",
+      " HP."
+    ]
+  },
+  "${modID}:CrystalRose": {
+    "NAME": "Crystal Rose",
+    "FLAVOR": "The piercing scarlet of this rose-shaped crystal gives it a beautiful luster.",
+    "DESCRIPTIONS": [
+      "Gain #b4 Block when playing a Primal's card."
+    ]
+  },
+  "${modID}:LoveEternal": {
+    "NAME": "Love Eternal",
+    "FLAVOR": "Roses adorn the exquisite blade, its edge shimmers with mysterious sheen. It feels as if it was made in a time before time, and served in a world long before ours.",
+    "DESCRIPTIONS": [
+      "Add a #yShiv to your hard at the start of your turn. It deals +1 damage for each #yDexterity and #yFocus you have."
+    ]
+  },
+  "${modID}:VerdantAzurite": {
+    "NAME": "Verdant Azurite",
+    "FLAVOR": "A crystalline structure that brings out the power of arbitration.",
+    "DESCRIPTIONS": [
+      "#yUpgrade #b2 cards of the highest rarity present in your deck."
+    ]
+  },
+  "${modID}:RoseShield": {
+    "NAME": "Rose Shield",
+    "FLAVOR": "A relic of the Rose Queen. All who behold her bewitching crimson roses instantly fall under her spell. Those foolish enough to wage war against her are swiftly swallowed up in a tomb of petals and vines.",
+    "DESCRIPTIONS": [
+      "Whenever you would lose HP, lose #b1 less."
+    ]
+  },
+  "${modID}:CelesteClawOmega": {
+    "NAME": "Celeste Claw",
+    "FLAVOR": "Glimmering in the darkness, three prongs cut silently through the night splattering withering flowers with a dark new coat of paint.",
+    "DESCRIPTIONS": [
+      "While HP is under #b50%, deal #b1 damage to a random enemy whenever you play an #yAttack #b(damage #bincreases #bas #byour #bHP #blowers)."
+    ]
+  },
+  "${modID}:ColossusFistOmega": {
+    "NAME": "Colossus Fist",
+    "FLAVOR": "A wordless shriek piercing enough to rip through steel summons a scorching heat that envelops your fists.",
+    "DESCRIPTIONS": [
+      "Whenever you are attacked during the first turn each combat, deal #b6 damage back."
+    ]
+  },
+  "${modID}:LeviathanScepterOmega": {
+    "NAME": "Leviathan Scepter",
+    "FLAVOR": "One wave of this staff unleashes its power over the ocean.",
+    "DESCRIPTIONS": [
+      "The first time you #gheal this combat, #gheal #b2 additional HP."
+    ]
+  },
+  "${modID}:LuminieraSwordOmega": {
+    "NAME": "Luminiera Sword",
+    "FLAVOR": "To uphold promise and dignity, the knight brandishes this ever-gleaming sword, gambling their life for everytime they confront a common bandit.",
+    "DESCRIPTIONS": [
+      "When obtained, gain #b2 Max HP. Your first #yAttack each combat deals #b2 additional damage."
+    ]
+  },
+  "${modID}:TiamatGlaiveOmega": {
+    "NAME": "Tiamat Glaive",
+    "FLAVOR": "Raging winds transformed into a blade.",
+    "DESCRIPTIONS": [
+      "At battle start, gain #b2 #yTemporary #yDexterity."
+    ]
+  },
+  "${modID}:YggdrasilBowOmega": {
+    "NAME": "Yggdrasil Bow",
+    "FLAVOR": "Its arrows find sacrifices to nourish the Great Tree, whose flowers bloom in serenity despite the bloodshed.",
+    "DESCRIPTIONS": [
+      "While at full HP, gain #b1 #yStrength."
+    ]
+  },
+  "${modID}:TyrosZither": {
+    "NAME": "Tyros Zither",
+    "FLAVOR": "An elegant maiden, cloaked in sparkling twilight, once extended this instrument in tribute to a skyfarer's valor.",
+    "DESCRIPTIONS": [
+      "The first time you play a #yRare card each combat, draw #b1 card."
+    ]
+  },
+  "${modID}:TridentOfBrahman": {
+    "NAME": "Trident Of Brahman",
+    "FLAVOR": "A single thrust of this spear is all it takes to rip a hole in the sky.",
+    "DESCRIPTIONS": [
+      "The first #yAttack played each combat is played twice."
+    ]
+  },
+  "${modID}:LastStormBlade": {
+    "NAME": "Last Storm Blade",
+    "FLAVOR": "Its edge produces a mighty gale, slicing through its foes until silence falls upon the battlefield.",
+    "DESCRIPTIONS": [
+      "After you play your third #yAttack this combat, gain #b1 #yEnergy."
+    ]
+  },
+  "${modID}:NibelungKlinge": {
+    "NAME": "Nibelung Klinge",
+    "FLAVOR": "The great guardian's protective power manifests as a treasured blade that passes judgment upon evil.",
+    "DESCRIPTIONS": [
+      "#b5% chance of dodging attacks and deal #b6 damage back."
+    ]
+  },
+  "${modID}:AnimaCeleste": {
+    "NAME": "Pact with Celeste",
+    "FLAVOR": "The ghost ship Celeste sails on waves of disaster. The wake it leaves behind is a foul miasma which casts those who breathe it into eternal thralldom.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yCeleste's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaColossus": {
+    "NAME": "Pact with Colossus",
+    "FLAVOR": "Colossus' hulking armor is a vision of undying vengeance. It may be powered by yearning or ire; one can only conjecture.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yColossus' #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaLeviathan": {
+    "NAME": "Pact with Leviathan",
+    "FLAVOR": "The watery incarnation of the isles is placid once more. It single-mindedly prays that its clear blue waters never be disturbed again.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yLeviathan's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaLuminiera": {
+    "NAME": "Pact with Luminiera",
+    "FLAVOR": "This knightly Primal is a manifestation of its commander's life force. Its prodigious powers shield the commander, and serve as a blades to annihilate foes.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yLuminiera's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaTiamat": {
+    "NAME": "Pact with Tiamat",
+    "FLAVOR": "Tiamat keeps peaceful watch over all creation. May her sky-racking winds never be known again.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yTiamat's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaYggdrasil": {
+    "NAME": "Pact with Yggdrasil",
+    "FLAVOR": "The mother and guardian of all greenery bestows her power upon skyfarers, that the pain of the voicelessly may one day vanish from the world.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yYggdrasil's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaAlexiel": {
+    "NAME": "Pact with Alexiel",
+    "FLAVOR": "Divine protector of the godly realm. With her all-reflecting mirror-blade barrier and guardian dragon of mirror-blade scales, she allows no evil to pass.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yAlexiel's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaEuropa": {
+    "NAME": "Pact with Europa",
+    "FLAVOR": "It is said there was once one of beauty so great that the gods bestowed upon her eternal life. She has captivated the heavens since time immemorial, and her beauty shall continue into forever and beyond.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yEuropa's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaGrimnir": {
+    "NAME": "Pact with Grimnir",
+    "FLAVOR": "A god of war that rides in on cyclonic gales. Although those winds have whipped up hundreds of victories, this deity is obsessed with chasing ever more power.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yGrimnir's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaShiva": {
+    "NAME": "Pact with Shiva",
+    "FLAVOR": "All things in nature are not permanent. This fierce deity of destruction gazes at a world in flux with an amoral eye.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yShiva's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaAthena": {
+    "NAME": "Pact with Athena",
+    "FLAVOR": "Athena bequeaths to her worshippers protection and wisdom, but her enemies suffer merciless punishment at the tip of her fiery spear.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yAthena's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaGrani": {
+    "NAME": "Pact with Grani",
+    "FLAVOR": "The divine horse carries the hero Grani into battle. The pair's lethal attacks can reverse the tides of battle in moments.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yGrani's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaBaal": {
+    "NAME": "Pact with Baal",
+    "FLAVOR": "Thunder shook the sky and lightning pierced the earth. Baal's wrath was feared throughout the sky and the worst of storms raged as he passed.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yBaal's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaGaruda": {
+    "NAME": "Pact with Garuda",
+    "FLAVOR": "Garuda is a youthful personification of courage can control a raging storm with the tip of one finger.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yGaruda's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaOdin": {
+    "NAME": "Pact with Odin",
+    "FLAVOR": "Odin's hunger for wisdom would only be sated when he knew the last of all truths.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yOdin's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:AnimaLich": {
+    "NAME": "Pact with Lich",
+    "FLAVOR": "The vengeful corpse king Lich attacks with a bone-chilling shriek. All living creatures bow down before him in inevitable terror.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yLich's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:SwordOfPallas": {
+    "NAME": "Sword of Pallas",
+    "FLAVOR": "This blade selects its own bearer. To the worthy it grants courage—to the unworthy, fiery castigation.",
+    "DESCRIPTIONS": [
+      "Whenever you would lose over half of your current HP, lose #b2 less.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:BowOfSigurd": {
+    "NAME": "Bow of Sigurd",
+    "FLAVOR": "Arrows shot from this elegant bow race through the sky like lightning, tracing the arc drawn in their owner's mind.",
+    "DESCRIPTIONS": [
+      "At the start of your second turn, gain #b2 #yTemporary #yStrength",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:SolomonAxe": {
+    "NAME": "Solomon's Axe",
+    "FLAVOR": "Roaring thunder energizes this weapon. Its ear-splitting roar calls forth overpowering bolts of divine retribution.",
+    "DESCRIPTIONS": [
+      "When you deal 15 or more damage in one hit, apply #yVulnerable to the target.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:PlumeOfSuparna": {
+    "NAME": "Plume of Suparna",
+    "FLAVOR": "The shimmer of this magnificent dusk-orange dagger is infused with pure courage.",
+    "DESCRIPTIONS": [
+      "Heal #b1 HP after the third time you play a Power card each combat.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:Gungnir": {
+    "NAME": "Gungnir",
+    "FLAVOR": "This unerring holy spear was given form by the combined strength and wisdom of the sagest gods.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yOdin's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:Obscuritas": {
+    "NAME": "Obscuritas",
+    "FLAVOR": "This staff was born in the gloomy vortex of sorrow and resentment that sits on the land's edge.",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yLich's #yCall to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:DamascusIngot": {
+    "NAME": "Damascus Ingot",
+    "FLAVOR": "Mystical energy radiates from this hard-to-obtain metal.",
+    "DESCRIPTIONS": [
+      "When obtained, upgrade all cards in your deck that are not basic #yStrike or #yDefend cards.",
+      "Additional Strikes",
+      "Skip Rewards",
+      "When obtained, upgrade all your #yStarter #yStrike cards and remove all your #yStarter #yDefend cards from deck."
+    ]
+  },
+  "${modID}:LegendaryMerit": {
+    "NAME": "Legendary Merit",
+    "FLAVOR": "A distinction reserved for skyfarers at the pinnacle of excellence.",
+    "DESCRIPTIONS": [
+      "When obtained: Remove all cards from your deck that are not #yStrikes or #yDefends. NL #yUpgrade the next #b",
+      " card you obtain.",
+      " cards you obtain.",
+      "Additional Strikes",
+      "Skip Rewards",
+      "When obtained: Remove all cards from your deck that are not #yStrikes or #yDefends. NL #yUpgrade the next cards you obtain up to that same number #b(min #b1)."
+    ]
+  },
+  "${modID}:ConstellationRelic": {
+    "NAME": "Memory of Constellations",
+    "FLAVOR": "Long ago the Astrals invaded the skydoms, but were wiped from the pages of history after the War and now exist as pure enigma.",
+    "DESCRIPTIONS": [
+      "For every Primal's card you obtain, start the next combat with [E] . Resets each combat.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:ProvidenceGlobe": {
+    "NAME": "Providence Globe",
+    "FLAVOR": "A window to the Laws of the Universe that can be use to harness the power of Gods.",
+    "DESCRIPTIONS": [
+      "Whenever you obtain a Primal's card, #yUpgrade it."
+    ]
+  },
+  "${modID}:PlusMarkBlue": {
+    "NAME": "Unknown Potential",
+    "FLAVOR": "As you gaze into the blue sky, the yearning only grows.",
+    "DESCRIPTIONS": [
+      "When entering #yAct #y2: #yArcarum, get an additional relic if you have not opened a #yBoss #yChest."
+    ]
+  },
+  "${modID}:OppressusFragorRelic": {
+    "NAME": "Oppressus Fragor",
+    "FLAVOR": "Fire, water, earth, wind, light, and darkness—six great wedges that comprise and maintain the Sky Realm, unstable and distorted though it may be.",
+    "DESCRIPTIONS": [
+      "Whenever you play an card, #yUpgrade it for the rest of the combat.",
+      "Add #yWedges #yof #ythe #ySky to your deck. Improve it after each fight with one of the Six Dragons (Act 2 Elites). If #yWedges #yof #ythe #ySky is upgraded and has all 6 Pigments, upgrade it again."
+    ]
+  },
+  "${modID}:BestLivesTogetherRelic": {
+    "NAME": "Orologia's Blessing",
+    "FLAVOR": "\"I repeat that process again. And again. And again. Alone.\"",
+    "DESCRIPTIONS": [
+      "The first time you take damage that would put you at 1 HP or less: NL 1. Fully heal before taking the damage. NL 2. Remove all debuffs on you. NL 3. For the rest of the run, gain #b1 additional #yEnergy at the start of your turn."
+    ]
+  },
+  "${modID}:MimicChestMino": {
+    "NAME": "Mimic Chest Mino",
+    "FLAVOR": "A greedy being that likes to hoard treasure.",
+    "DESCRIPTIONS": [
+      "Get #b",
+      " #yold and #b1 additional card reward each combat. NL Gain #b1 additional #yEnergy at the start of your turn for each card added to your full deck since your last combat victory."
+    ]
+  },
+  "${modID}:TranscendentBlue": {
+    "NAME": "Blue Yearning",
+    "FLAVOR": "The causality dragon presides over the flow of time so that it may secretly watch over the blue skies in its devoted graces.",
+    "DESCRIPTIONS": [
+      "Gain #b2 #yEnergy and draw #b2 additional cards on the first turn of each combat."
+    ]
+  },
+  "${modID}:FirestormScythe": {
+    "NAME": "Firestorm Scythe",
+    "FLAVOR": "The staunch fires swirling from these crimson wings can burn everything to a crisp, yet it can also plant the seeds of civilization.",
+    "DESCRIPTIONS": [
+      "Your #yRare #yAttacks deal ",
+      " additional damage."
+    ]
+  },
+  "${modID}:CalamitousAquashade": {
+    "NAME": "Calamitous Aquashade",
+    "FLAVOR": "Even a gentle touch from this seemingly harmless umbrella will numb your senses with suprarational poison hidden within its folds.",
+    "DESCRIPTIONS": [
+      "At battle start, gain #b1 #yStrength, #b1 #yDexterity, and #b1 #yEnergy for every ",
+      " #yMax #yHP you have."
+    ]
+  },
+  "${modID}:LandslideScepter": {
+    "NAME": "Landslide Scepter",
+    "FLAVOR": "To lay eyes on this scepter is to stand at the base of the highest of cliffs, an experience intruding on the supernatural.",
+    "DESCRIPTIONS": [
+      "If your full deck contains ",
+      " cards with the same name, gain #b1 #yStrength, #b1 #yDexterity, and #b1 #yEnergy at battle start."
+    ]
+  },
+  "${modID}:PiercingGalewing": {
+    "NAME": "Piercing Galewing",
+    "FLAVOR": "A single swing of this blade summons winds as preternatural as the original storm to mince everything in its path.",
+    "DESCRIPTIONS": [
+      "Increase #y${modID}:Magic_Damage you deal by #b",
+      "."
+    ]
+  },
+  "${modID}:ImperiousFury": {
+    "NAME": "Imperious Fury",
+    "FLAVOR": "A white light untainted by any unleashes a myriad of colors, becoming something formless and intangible.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #b1 damage to ALL enemies and gain #b1 #yBlock for every ",
+      " cards in your full deck."
+    ]
+  },
+  "${modID}:SkeletalEclipse": {
+    "NAME": "Skeletal Eclipse",
+    "FLAVOR": "Those enthralled by this spear find their consciousness being slowly drained away, eventually meeting their demise.",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack, deal damage to ALL enemies equal to its cost."
+    ]
+  },
+  "${modID}:ArcarumJudgementReversed": {
+    "NAME": "Judgement Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a triumphant chorus, heralding the arrival of judgment fair and swift.",
+    "DESCRIPTIONS": [
+      "At the start of your turn: NL If you don't have a debuff, draw #b1 additional card NL If you do have a debuff, gain #b1 Temporary #yStrength."
+    ]
+  },
+  "${modID}:ArcarumJusticeReversed": {
+    "NAME": "Justice Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a sword-wielding scale come to life, protecting the values it's sworn to champion.",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack with an even cost, deal #b",
+      " damage and apply #b",
+      " #yWeak to the target. NL ",
+      "#b(or #ba #brandom #benemy #bif #bthere #bis #bno #btarget)"
+    ]
+  },
+  "${modID}:ArcarumHangedManReversed": {
+    "NAME": "The Hanged Man Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of an inverted man, hanging by an ankle as punishment for his transgressions.",
+    "DESCRIPTIONS": [
+      "If all the cards in your deck have different names #b(not #bcounting #bstarter #bcards), gain #b1 #yStrength and #b1 #yDexterity at battle start."
+    ]
+  },
+  "${modID}:ArcarumDeathReversed": {
+    "NAME": "Death Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a bearer of demise, swinging scythes in elegant strokes.",
+    "DESCRIPTIONS": [
+      "At battle start, gain #b13 #y${modID}:Love's_Redemption."
+    ]
+  },
+  "${modID}:ArcarumTemperanceReversed": {
+    "NAME": "Temperance Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of pertinent restraint, upholding the virtues of prudence through its measured control of the flowing chalices.",
+    "DESCRIPTIONS": [
+      "If you do not play any #yAttacks during your turn, gain #b",
+      " Temporary #yStrength next turn."
+    ]
+  },
+  "${modID}:ArcarumDevilReversed": {
+    "NAME": "The Devil Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a coaxing demon, clawing at the innocents tempted to draw near.",
+    "DESCRIPTIONS": [
+      "Whenever you take #yAttack damage from an enemy with #yVulnerable, you take #b1 less damage. Whenever you deal #yAttack damage to an enemy with #yWeak, you deal #b1 more damage."
+    ]
+  },
+  "${modID}:ArcarumTowerReversed": {
+    "NAME": "The Tower Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a calamitous fortress, ascending through the skies to foreshadow an approaching crisis.",
+    "DESCRIPTIONS": [
+      "At the start every 3rd turn, deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "${modID}:ArcarumStarsReversed": {
+    "NAME": "The Stars Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a luminous hope, wielding sparks of stellar proportions.",
+    "DESCRIPTIONS": [
+      "You cannot lose more than #b",
+      " HP from a single hit."
+    ]
+  },
+  "${modID}:ArcarumMoonReversed": {
+    "NAME": "The Moon Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of a bewitching lunar warrior, illuminating the delusions hidden deep within one's heart.",
+    "DESCRIPTIONS": [
+      "You #yAttacks deal #b",
+      "% more damage each turn."
+    ]
+  },
+  "${modID}:ArcarumSunReversed": {
+    "NAME": "The Sun Reversed",
+    "FLAVOR": "This fate-affirming entity takes the form of an auspicious sphere, brilliantly glowing as its halos burst forth with energy.",
+    "DESCRIPTIONS": [
+      "Whenever you draw, if you reach #b10 cards in hand, your next #yAttack costs 0."
+    ]
+  },
+  "${modID}:PhasesOfTheMoon": {
+    "NAME": "Phases of the Moon",
+    "FLAVOR": "The pure light from the orb of the night sky shall reflect still the corruption of the Sun.",
+    "DESCRIPTIONS": [
+      "Tracks the phases of the moon."
+    ]
+  },
+  "${modID}:HollowKeyRelic": {
+    "NAME": "Hollow Key",
+    "FLAVOR": "This mysterious key is believed to be able to interfere with events both past and future.",
+    "DESCRIPTIONS": [
+      "The first time each combat that you end your turn without playing any cards, take an extra turn."
+    ]
+  },
+  "${modID}:EnigmaticArmillaRelic": {
+    "NAME": "Enigmatic Armilla",
+    "FLAVOR": "A device with the ability to transform a relic's power. Its mechanisms and source of power are yet to be deciphered.",
+    "DESCRIPTIONS": [
+      "Obtain the cards of the #yPrimals who's relics you've obtained."
+    ]
+  },
+  "${modID}:WorldideanRelic": {
+    "NAME": "Pact with The World",
+    "FLAVOR": "Ah, how far away the ideal world!",
+    "DESCRIPTIONS": [
+      "When obtained, add a #yInchoate #yWorld to your deck.",
+      "The Pact has been made",
+      "Skip Rewards"
+    ]
+  },
+  "${modID}:TheWorldCard": {
+    "NAME": "The World Upright",
+    "FLAVOR": "This is one of the twenty-two symbols of karma and fate. Its divinity challenged, it kindles the embers of rebellion once more.",
+    "DESCRIPTIONS": [
+      "Obtain one of five World Harp relics depending on your character.",
+      " NL Current Character: ",
+      " NL Your World Harp relic will be the ",
+      "Worldforging Moros",
+      "Worldscathing Leon",
+      "Worldstorming Aetos",
+      "Worldbreaking Tauros",
+      "Worldvexing Angelos"
+    ]
+  },
+  "${modID}:WorldforgingMorosRelic": {
+    "NAME": "Worldforging Moros",
+    "FLAVOR": "A fragment of the new world, born when the old was deemed unworthy.",
+    "DESCRIPTIONS": [
+      "Your #yRare #yAttacks deal #b20% more damage. Whenever you gain #yBlock gain #b10% more (min. #b1 more)."
+    ]
+  },
+  "${modID}:WorldscathingLeonRelic": {
+    "NAME": "Worldscathing Leon",
+    "FLAVOR": "As a pillar of the world, the Lion of the Tetramorph calls upon scorching flames to usher in a new order.",
+    "DESCRIPTIONS": [
+      "Your #yAttacks deal #b15% more damage. Whenever you gain #yBlock gain #b10% more (min. 1 more)."
+    ]
+  },
+  "${modID}:WorldstormingAetosRelic": {
+    "NAME": "Worldstorming Aetos",
+    "FLAVOR": "As a pillar of the world, the Eagle of the Tetramorph summons monstrous tidal waves to usher in a new order.",
+    "DESCRIPTIONS": [
+      "Whenever you would deal damage, increase it by #b1. Whenever you gain #yBlock gain #b10% more (min. #b1 more)."
+    ]
+  },
+  "${modID}:WorldbreakingTaurosRelic": {
+    "NAME": "Worldbreaking Tauros",
+    "FLAVOR": "As a pillar of the world, the Bull of the Tetramorph thunders its colossal hooves to usher in a new order.",
+    "DESCRIPTIONS": [
+      "At the end of your turn, #yOrbs trigger both their #yPassive and #yEvoke abilities #b(without #bEvoking). Whenever you gain #yBlock gain #b10% more (min. 1 more)."
+    ]
+  },
+  "${modID}:WorldvexingAngelosRelic": {
+    "NAME": "Worldvexing Angelos",
+    "FLAVOR": "As a pillar of the world, the Faceless of the Tetramorph beats its lustrous white wings to usher in a new order.",
+    "DESCRIPTIONS": [
+      "While you are in #yCalm #yStance, your Attacks deal double damage and take double damage from Attacks. Whenever you exit #yWrath #yStance, you gain #b2 #yEnergy. Whenever you gain #yBlock gain #b10% more (min. 1 more)."
+    ]
+  },
+  "${modID}:OdiousDemonspear": {
+    "NAME": "Demonspear",
+    "FLAVOR": "With■n The Ominous Tride■t Resides A Ragin■ Fervor Buoyed By Folly.",
+    "DESCRIPTIONS": [
+      "Your Attacks deal #b",
+      "% more damage.",
+      " Whenever you would lose HP, lose #b",
+      " more. Exorcise at a #yRest #ySite to remove this HP loss."
+    ]
+  },
+  "${modID}:OdiousTerrorbow": {
+    "NAME": "Terrorbow",
+    "FLAVOR": "A Single Drop To Spread This Per■ection Becomes An Arrow, Falling To P■rmeate The World.",
+    "DESCRIPTIONS": [
+      "Whenever you gain Block, gain #b",
+      " more. Double this Block gain if you are under #b50% HP.",
+      " Your Powers cost #b",
+      " more Energy. Exorcise at a #yRest #ySite to remove this Energy cost increase."
+    ]
+  },
+  "${modID}:OdiousSealhammer": {
+    "NAME": "Sealhammer",
+    "FLAVOR": "Within The Cracked Monolith Linge■s Merciless Rapture In S■lf-Glorification.",
+    "DESCRIPTIONS": [
+      "Your Attacks that cost 1 or less Energy deal #b",
+      " additional damage.",
+      " Your 0-cost Attacks cost 1 more Energy. Exorcise at a #yRest #ySite to remove this Energy cost increase."
+    ]
+  },
+  "${modID}:OdiousDemonedge": {
+    "NAME": "Demonedge",
+    "FLAVOR": "The Blade That Lays Ba■e The Truth Gleams With Corruption, Clad In Resplend■nt Defilement.",
+    "DESCRIPTIONS": [
+      "Draw #b",
+      " cards at the start of your turn.",
+      " Lose ",
+      " Energy at the start of each turn. Exorcise at a #yRest #ySite to remove this Energy loss."
+    ]
+  },
+  "${modID}:OdiousBlightrifle": {
+    "NAME": "Blightrifle",
+    "FLAVOR": "The Bullet Loos■d Within The ■ark Is Turned To Li■ht, Serving As Our Guid■.",
+    "DESCRIPTIONS": [
+      "At battle start, gain #b",
+      " Strength and Focus, but lose #b",
+      " Dexterity. Exorcise at a #yRest #ySite to make it so that you gain Dexterity instead.",
+      " Strength, Focus, and Dexterity."
+    ]
+  },
+  "${modID}:OdiousCodex": {
+    "NAME": "Codex of Sanctity Verboten",
+    "FLAVOR": "Those Charmed By Hol■ness Eventually Lose ■hemselves.",
+    "DESCRIPTIONS": [
+      "Your Attacks deal more damage based on how #ylow is your HP percentage (Max #b",
+      "% while at #b1 HP). Exorcise at a #yRest #ySite to change #ylow to #yhigh.",
+      "Your Attacks deal more damage based on how #yhigh is your HP percentage (Max #b",
+      "% while at #b100% HP). Exorcise at a #yRest #ySite to change #yhigh to #ylow."
+    ]
+  },
+  "${modID}:ScalesOfDominionRelic": {
+    "NAME": "Scales of Dominion",
+    "FLAVOR": "Prosperity or destitution? Order or chaos? Yin or yang? Life or death?",
+    "DESCRIPTIONS": [
+      "At battle start, if all #ynon-Starter card in your full deck are unique, gain #b",
+      " Strength."
+    ]
+  },
+  "${modID}:StarsTreadsRelic": {
+    "NAME": "Star's Treads",
+    "FLAVOR": "Rend dark paths to distant wars.",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP, gain #b1 #yThorns."
+    ]
+  },
+  "${modID}:RubeaStiriaRelic": {
+    "NAME": "Rubea Stiria",
+    "FLAVOR": "...Repeat activations are highly probable.",
+    "DESCRIPTIONS": [
+      "Whenever you play an X-cost card while you have 0 #yEnergy, gain #b1 #yEnergy."
+    ]
+  },
+  "${modID}:MeteorsLight": {
+    "NAME": "Meteor's Light",
+    "FLAVOR": "A gun crafted using an unidentified ore known only as Stranger Stone.",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain 1 random starter relic that is not from your character."
+    ]
+  },
+  "${modID}:TiensPortrait": {
+    "NAME": "Tien's Portrait",
+    "FLAVOR": "One of the Eternals—they who stand astride the skies and across the path of any would-be calamity.",
+    "DESCRIPTIONS": [
+      "Whenever you kill an enemy, gain 10% of your current #yGold."
+    ]
+  }
+}

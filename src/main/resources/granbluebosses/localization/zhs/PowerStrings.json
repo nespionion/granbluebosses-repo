@@ -1,0 +1,420 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "终极力量",
+    "DESCRIPTIONS": [
+      "你非常酷，而且很强。"
+    ]
+  },
+  "${modID}:RagnarokField": {
+    "NAME": "诸神黄昏领域",
+    "DESCRIPTIONS": [
+      "受到 ",
+      " 点伤害，在回合结束时。"
+    ]
+  },
+  "${modID}:OverdriveState": {
+    "NAME": "超载（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物的攻击更加强力。造成 ",
+      " 点伤害以使其眩晕。",
+      " 点伤害以使其眩晕。"
+    ]
+  },
+  "${modID}:StandbyState": {
+    "NAME": "待机（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物目前很平静。如果再受到 ",
+      " 点伤害，它将变得更具攻击性。",
+      " 点伤害，它将变得更具攻击性。"
+    ]
+  },
+  "${modID}:FieldOfMediation": {
+    "NAME": "调停领域",
+    "DESCRIPTIONS": [
+      "施加时，你的牌组中每存在一种不同于自身颜色的卡牌颜色，便获得 #b1 点 #y力量、#y敏捷 和 #y集中。"
+    ]
+  },
+  "${modID}:WormholePower": {
+    "NAME": "虫洞（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物在受到 ",
+      " 点伤害，它将变得更具攻击性。"
+    ]
+  },
+  "${modID}:EbbTidePower": {
+    "NAME": "退潮（无法驱散）",
+    "DESCRIPTIONS": [
+      "当你打出一张能力牌时，该生物会改变意图。"
+    ]
+  },
+  "${modID}:PathOfDestruction": {
+    "NAME": "毁灭之道",
+    "DESCRIPTIONS": [
+      "下一次攻击将获得大幅强化。"
+    ]
+  },
+  "${modID}:MirrorBlade5": {
+    "NAME": "镜刃",
+    "DESCRIPTIONS": [
+      "回合结束时对玩家造成 #b5 点伤害。"
+    ]
+  },
+  "${modID}:MirrorBlade2": {
+    "NAME": "镜刃",
+    "DESCRIPTIONS": [
+      "回合结束时对玩家造成 #b2 点伤害。"
+    ]
+  },
+  "${modID}:Marked": {
+    "NAME": "标记",
+    "DESCRIPTIONS": [
+      "敌人正准备以强力攻击打击该生物。"
+    ]
+  },
+  "${modID}:IncantedOmen": {
+    "NAME": "预兆",
+    "DESCRIPTIONS": [
+      "该敌人正在准备一次强力攻击。满足特定条件即可取消它。"
+    ]
+  },
+  "${modID}:StanceOmen": {
+    "NAME": "预兆",
+    "DESCRIPTIONS": [
+      "除非被眩晕，否则该敌人会在满足特定条件时准备一次强力攻击。"
+    ]
+  },
+  "${modID}:BlueCrystalPower": {
+    "NAME": "蓝色水晶",
+    "DESCRIPTIONS": [
+      "下次获得 #y力量、#y敏捷、#y集中 或 #y真言 时，额外获得1点。"
+    ]
+  },
+  "${modID}:DebuffOnHit": {
+    "NAME": "命中施加减益（无法驱散）",
+    "DESCRIPTIONS": [
+      "每当该生物造成未被格挡的伤害时，施加 "
+    ]
+  },
+  "${modID}:PiercingPower": {
+    "NAME": "穿透（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物攻击时会无视 #y格挡 以及会修改攻击伤害的 #y能力。"
+    ]
+  },
+  "${modID}:ConjunctionPower": {
+    "NAME": "合相（无法驱散）",
+    "DESCRIPTIONS": [
+      "回合开始时，该生物的生命将变为1。"
+    ]
+  },
+  "${modID}:CelesteEnmity": {
+    "NAME": "Celeste的背水",
+    "DESCRIPTIONS": [
+      "每当你打出一张 #y攻击 牌，对随机敌人造成 #b1 点伤害。当你的生命低于20%、低于10%，以及生命为 #b1 时，各额外造成 #b1 点伤害。"
+    ]
+  },
+  "${modID}:PhalanxPower": {
+    "NAME": "方阵",
+    "DESCRIPTIONS": [
+      "使受到的可格挡伤害降低 #b",
+      "%，持续到下个回合开始。"
+    ]
+  },
+  "${modID}:IncantedOmenCardPlayed": {
+    "NAME": "咏唱中的 #y预兆",
+    "DESCRIPTIONS": [
+      "当你打出卡牌时，该敌人的意图会改变。",
+      "当你打出 ",
+      "。"
+    ]
+  },
+  "${modID}:CrippleDraw": {
+    "NAME": "限制：",
+    "DESCRIPTIONS": [
+      "本回合每当你抽到一张 ",
+      " 牌时，将其丢弃",
+      "。",
+      "，并将其替换为一张 "
+    ]
+  },
+  "${modID}:IncantedOmenPowersApplied": {
+    "NAME": "咏唱中的 #y预兆",
+    "DESCRIPTIONS": [
+      "在能力被施加到该敌人身上后，其意图会改变。",
+      "在 ",
+      " 被施加到该敌人身上后，其意图会改变。"
+    ]
+  },
+  "${modID}:IncantedOmenHits": {
+    "NAME": "咏唱中的 #y预兆",
+    "DESCRIPTIONS": [
+      "该敌人在受到足够次数的攻击后会改变意图。",
+      "该敌人在 "
+    ]
+  },
+  "${modID}:IncantedOmenDamage": {
+    "NAME": "咏唱中的 #y预兆",
+    "DESCRIPTIONS": [
+      "该敌人在受到足够伤害后会改变意图。",
+      "该敌人在 "
+    ]
+  },
+  "${modID}:JudgementTrumpet": {
+    "NAME": "宣判号角（无法驱散）",
+    "DESCRIPTIONS": [
+      "受到攻击时，获得 #b",
+      " 点 #y力量（最多 #b4 点）。"
+    ]
+  },
+  "${modID}:UnrighteousnessPower": {
+    "NAME": "不义",
+    "DESCRIPTIONS": [
+      "该生物已被判定为罪人。作为惩罚，它将在本轮结束时失去一半生命。"
+    ]
+  },
+  "${modID}:LovesRedemption": {
+    "NAME": "爱的救赎",
+    "DESCRIPTIONS": [
+      "当你的生命高于50%时，受到的 #y攻击 伤害降低50%。每轮结束时层数减少2。每当你打出一张牌时层数减少1。"
+    ]
+  },
+  "${modID}:DoubleStrike": {
+    "NAME": "双重打击",
+    "DESCRIPTIONS": [
+      "攻击牌会打出两次。"
+    ]
+  },
+  "${modID}:ImpregnableFortress": {
+    "NAME": "坚不可摧的要塞",
+    "DESCRIPTIONS": [
+      "你的生命无法降至 #b1 以下。"
+    ]
+  },
+  "${modID}:SentencedTrumpet": {
+    "NAME": "判刑",
+    "DESCRIPTIONS": [
+      "在 ",
+      " 回合后，",
+      " 回合后，",
+      "消耗该回合抽到的前 ",
+      " 张牌。",
+      "张牌。"
+    ]
+  },
+  "${modID}:ATKDown": {
+    "NAME": "攻击下降",
+    "DESCRIPTIONS": [
+      "该生物的 #y攻击 造成的伤害提高 #b",
+      "%。"
+    ]
+  },
+  "${modID}:DEFDown": {
+    "NAME": "防御下降",
+    "DESCRIPTIONS": [
+      "该生物受到的 #y攻击 伤害提高 #b",
+      "%。"
+    ]
+  },
+  "${modID}:ThunderboltOfDisaster": {
+    "NAME": "灾厄雷霆",
+    "DESCRIPTIONS": [
+      "每当你打出一张 #y攻击 牌，若该 #y攻击 以一个敌人为目标，则对随机目标造成 #b",
+      " 点伤害。若该 #y攻击 以所有敌人为目标，则造成 #b",
+      " 点伤害给所有敌人。"
+    ]
+  },
+  "${modID}:MoonCrescent": {
+    "NAME": "新月",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 额外造成1点伤害。在你的回合结束时提升。"
+    ]
+  },
+  "${modID}:MoonQuarter": {
+    "NAME": "弦月",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 额外造成2点伤害。在你的下个回合开始时提升。"
+    ]
+  },
+  "${modID}:MoonFull": {
+    "NAME": "满月",
+    "DESCRIPTIONS": [
+      "本轮你的 #y攻击 额外造成3点伤害。"
+    ]
+  },
+  "${modID}:DEFUp": {
+    "NAME": "防御提升",
+    "DESCRIPTIONS": [
+      "该生物受到的 #y攻击 伤害提高 #b",
+      " 点更少的 #y攻击 伤害。"
+    ]
+  },
+  "${modID}:TheEmeraldsWindfallPower": {
+    "NAME": "翠绿之风赐",
+    "DESCRIPTIONS": [
+      "本回合打出的第一张牌会在回合结束时额外打出 #b",
+      " 次。"
+    ]
+  },
+  "${modID}:TheGoldsFoundationPower": {
+    "NAME": "黄金之基",
+    "DESCRIPTIONS": [
+      "若你结束回合时没有打出任何攻击牌，获得 #b",
+      " 点 #y力量。"
+    ]
+  },
+  "${modID}:TheWhitesLightfieldPower": {
+    "NAME": "纯白光域",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，获得 #b",
+      " 点 #y格挡，并且所有敌人回复1点生命。"
+    ]
+  },
+  "${modID}:TheBlacksEncroachmentPower": {
+    "NAME": "黄金之基",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害减少 #b",
+      " 点。 NL 在你的回合结束时，失去1点生命。"
+    ]
+  },
+  "${modID}:DeathSentencePower": {
+    "NAME": "死亡宣告",
+    "DESCRIPTIONS": [
+      "在回合结束或打出卡牌时降低。该生物在降至 #b0 时死亡。"
+    ]
+  },
+  "${modID}:DoomFirePower": {
+    "NAME": "末日之火",
+    "DESCRIPTIONS": [
+      "在你的回合开始时（抽牌后），消耗抽牌堆顶部的 #b",
+      " 张牌。提高 #yVarrazunalaqu 的 #y预兆 要求。 NL 取消 #y预兆 时降低 #b1。",
+      "当层数至少为1时："
+    ]
+  },
+  "${modID}:CASealedPower": {
+    "NAME": "稀有牌封印",
+    "DESCRIPTIONS": [
+      "接下来的 ",
+      " 回合内，你无法打出稀有牌。"
+    ]
+  },
+  "${modID}:UnsealingPower": {
+    "NAME": "解封（最多5层）",
+    "DESCRIPTIONS": [
+      "每回合你最多只能打出 #b",
+      " 张牌。取消 #y预兆 时降低 #b1。",
+      "当层数至少为1时：限制你能打出的卡牌数量。取消 #y预兆 时降低1层。"
+    ]
+  },
+  "${modID}:GoldenCorruptionPower": {
+    "NAME": "黄金腐化（最多5层）",
+    "DESCRIPTIONS": [
+      "使造成的伤害降低 #b",
+      "。取消 #y预兆 时降低 #b1。"
+    ]
+  },
+  "${modID}:GildedHeavenPower": {
+    "NAME": "鎏金庇护（最多10层）",
+    "DESCRIPTIONS": [
+      "每轮结束时增加 #b3。每当该生物受到伤害时降低 #b1。当没有激活的 #y预兆 且该效果降至0时，神经锥体会被眩晕。"
+    ]
+  },
+  "${modID}:TorrentOfLifePower": {
+    "NAME": "生命奔流",
+    "DESCRIPTIONS": [
+      "优质的优质的的进入永恒之地攻击将直接致死。取消 #y预兆 时移除此效果。"
+    ]
+  },
+  "${modID}:UniversalUpwellingPower": {
+    "NAME": "万象涌升",
+    "DESCRIPTIONS": [
+      "回合结束时，将 #b1 层转化为随机增益。取消 #y预兆 时降低 #b1 层，并从该生物身上移除 #b1 个增益。"
+    ]
+  },
+  "${modID}:MechanizationPower": {
+    "NAME": "机械化（最多5层）",
+    "DESCRIPTIONS": [
+      "每当你将受到伤害时，使该伤害增加 #b",
+      "。取消 #y预兆 时降低1层。"
+    ]
+  },
+  "${modID}:ObservationPower": {
+    "NAME": "观察（最多5层）",
+    "DESCRIPTIONS": [
+      "回合开始时，将 #b",
+      " 张晕眩加入你的手牌。"
+    ]
+  },
+  "${modID}:DerangedPower": {
+    "NAME": "错乱",
+    "DESCRIPTIONS": [
+      "本回合每当你抽到一张牌时，随机改变其费用。",
+      "接下来的 ",
+      " 回合内，每当你抽到一张牌时，随机改变其费用。"
+    ]
+  },
+  "${modID}:DemonolatryPagesPower": {
+    "NAME": "恶魔崇拜书页（最多5层，无法驱散）",
+    "DESCRIPTIONS": [
+      "每当你打出一张牌时增加 #b1。回合结束以及取消 #y预兆 时重置为 #b1。"
+    ]
+  },
+  "${modID}:ColossalBodyPower": {
+    "NAME": "巨躯",
+    "DESCRIPTIONS": [
+      "受到以 #r所有人 为目标的卡牌造成的伤害提高 #b100%。受到以 #y所有敌人 为目标的卡牌造成的伤害提高 #b50%。"
+    ]
+  },
+  "${modID}:AkashaTimeWarpPower": {
+    "NAME": "时间扭曲（无法净化）",
+    "DESCRIPTIONS": [
+      "#y能力 和 #y遗物 的 #b回合 #b开始 与 #b回合 #b结束 效果会额外触发 #b",
+      " 次（#y遗物 仅在你的回合中触发）。",
+      " 次（#y遗物 仅在你的回合中触发）。",
+      "#y能力 和 #y遗物 的 #b回合 #b开始 与 #b回合 #b结束 效果会额外触发多次。"
+    ]
+  },
+  "${modID}:AkashaTimeWarpPowerBak": {
+    "NAME": "时间扭曲（无法净化）",
+    "DESCRIPTIONS": [
+      "当你结束回合时，会经过 ",
+      " 个额外回合。",
+      " 个额外回合。",
+      "当你结束回合时，可能会经过额外回合。"
+    ]
+  },
+  "${modID}:AkashaKarmaPower": {
+    "NAME": "因果",
+    "DESCRIPTIONS": [
+      "Akasha正在准备一次强力攻击！打出 ",
+      " 张攻击牌以阻止它。",
+      " 张攻击牌以阻止它。"
+    ]
+  },
+  "${modID}:TheWorldSpherePower": {
+    "NAME": "投影世界（无法驱散）",
+    "DESCRIPTIONS": [
+      "受到攻击时，反击造成 ",
+      " 点伤害。回合结束时，将1层转化为力量。"
+    ]
+  },
+  "${modID}:TheWorldTerminalPower": {
+    "NAME": "终末世界（无法驱散）",
+    "DESCRIPTIONS": [
+      "使梅比彗星的攻击次数增加 #b",
+      "。 NL 取消 #y预兆 时降低 #b1。"
+    ]
+  },
+  "${modID}:GbfDOTPower": {
+    "NAME": "恶化",
+    "DESCRIPTIONS": [
+      "该生物在每个回合结束时失去 #b",
+      " 点生命。"
+    ]
+  },
+  "${modID}:TrancePower": {
+    "NAME": "恍惚（无法驱散，最多3层）",
+    "DESCRIPTIONS": [
+      "达到 #b3 层时，你的 #y攻击 额外造成 #b3 点伤害。"
+    ]
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "${modID}:EventID": {
+    "NAME": "Event Name",
+    "DESCRIPTIONS": [
+      "This is event text, generally used to describe what's happening.",
+      "#g~This~ #g~text~ #g~is~ #g~green~ #g~and~ #g~wavy.~",
+      "#r@RED@ #r@AND@ #r@VIBRATING@ #r@TEXT.@",
+      "#rRed #gGreen #yYellow #bBlue #pPurple. ~Wavy~ @vibrating.@",
+      "You have to mark every word individually.",
+      "You can also use [#ffffff]white[] hex color codes like this to color text.",
+      "Hex color codes also work in card text! But not on keywords, without some workarounds."
+    ],
+    "OPTIONS": [
+      "[Action Description] What you actually get.",
+      "[Denial] #rLose #r1 #rMax #rHP. Bad stuff is red.",
+      "[Acceptance] #gGain #gApotheosis. Good stuff is green.",
+      "[Leave]",
+      "Select card to remove. (You can also stick extra text like this in here.)"
+    ]
+  },
+  "${modID}:ZooeyEvent": {
+    "NAME": "Keeper of Balance",
+    "DESCRIPTIONS": [
+      "As you attempt to get some rest in what seems to be a secure place, you awaken floating far above the clouds. NL A woman clad in armor and a blue dress, surrounded by small dragons stands before you. NL As she speaks her voice echoes in your head, as if she was speaking from all directions. NL \"#b@Being@ #b@from@ #b@outside@ #b@these@ #b@skies,@ #b@I@ #b@ask@ #b@thee,@ #b@are@ #b@you@ #b@an@ #b@enemy@ #b@of@ #b@order?@\"",
+
+      "\"#b@So@ #b@be@ #b@it.@ #b@I@ #b@shall@ #b@soon@ #b@eliminate@ #b@you,@ #b@stranger@ #b@from@ #b@beyond@ #b@the@ #b@skies.@\" NL The woman disappears. Then you wake up as if from a dream, a strange sense of foreboding haunting you.",
+
+      "The woman's expression softens. NL #bThen #bI #bshall #bhope #bthat #bthese #bskies #btreat #byou #bwell. NL The woman disappears. Then you wake up as if from a dream, a blue feather resting in your hand."
+    ],
+    "OPTIONS": [
+      "[Yes] The #rBOSS for this act changes.",
+      "[No] Receive a #ggift.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:CelesteEvent": {
+    "NAME": "Anchor of Celeste",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you, composed, but without demonstrating any overt malice. She offers to give you a pendant, for a price.",
+      "Darkstone Periapt."
+    ],
+    "OPTIONS": [
+      "[Accept] #gGet #gan #gUncommon #grelic. #rLose #r",
+      " #rMax #rHP.",
+      "[Reject]"
+    ]
+  },
+  "${modID}:ColossusEvent": {
+    "NAME": "Steel of the Iron Giant",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you, its blade sheathed this time. Apologetic for the harm it cause you, it offers to grant you strength."
+    ],
+    "OPTIONS": [
+      "[Accept] #gUpdrade #ga #gcard #gin #gyour #gdeck.",
+      "[Reject]"
+    ]
+  },
+  "${modID}:LeviathanEvent": {
+    "NAME": "Dew of Leviathan",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you. Without a word, the serpent surrounds you with its water magic, healing your wounds. NL Then it leaves as quickly as it appeared."
+    ],
+    "OPTIONS": [
+      "#gHeal #g",
+      " #gHP.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:LuminieraEvent": {
+    "NAME": "Pride of Luminiera",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you, satisfied with the result of your fight. As reward for your previous victory, she offers to cleanse your curse."
+    ],
+    "OPTIONS": [
+      "[Accept] #gRemove #ga #grandom #gCurse #gfrom #gyour #gdeck.",
+      "[Reject]"
+    ]
+  },
+  "${modID}:TiamatEvent": {
+    "NAME": "Morning Calm of Tiamat",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you. As you prepare to fight, she tells you to stand down and offers to free you from the chains of your past."
+    ],
+    "OPTIONS": [
+      "[Accept] #gPermanently #gremove #ga #gcard #gfrom #gyour #gdeck.",
+      "[Reject]"
+    ]
+  },
+  "${modID}:YggdrasilEvent": {
+    "NAME": "Leaf of Yggdrasil",
+    "DESCRIPTIONS": [
+      "A former adversary appears before you, though without a shred of her former aggression. Worried for you, she offers to grant you her aid."
+    ],
+    "OPTIONS": [
+      "[Accept] #gGain #g",
+      " #gMax #gHP.",
+      "[Reject]"
+    ]
+  },
+  "${modID}:FireEvent": {
+    "NAME": "Forest Fire",
+    "DESCRIPTIONS": [
+      "A sudden blue fire has ignited behind you. It feels strangely persistent in catching you despite your attempts to evade it.",
+      "You throw the first thing you manage to grab a hold of in your bag. The fire burns it to a crisp before rapidly subsiding.",
+      "You scramble to get a potion from your bag and quickly empty its contents. NL As if it were alive and aware of your intentions, ",
+      "the fire retreats before you can capture any of it.",
+      "the fire enters the bottle on its own.",
+      "You hide in a small nearby cave, you barely fit, but you hope the fire will not find you here. NL ",
+      "The fire passes by. You're safe. NL ",
+      "Unfortunately, the fire finds you and burns you as you fail to retreat. Eventually, it subsides, and you exit the cave worse for wear. NL The outside didn't fair much better than you. ",
+      "The only thing left in the fire's wake is a small dead branch.",
+      "There's nothing left in the fire's wake."
+    ],
+    "OPTIONS": [
+      "[Quickly! Throw something at it!] Permanently remove a #rrandom card from your deck.",
+      "[Attempt to capture it] #rLose #ryour #rleftmost #rpotion. 50% #gGet #gan #gUncommon #gRelic.",
+      "Missing a bottle.",
+      "[Hide and wait it out] 12% #gGet #gan #gRare #gRelic. Also, 50% #rLose #r",
+      " HP.",
+      "[Keep running]",
+      "Requires cards to remove.",
+      "Requires potions.",
+      "Requires cards to remove."
+    ]
+  },
+  "${modID}:LushEvent": {
+    "NAME": "Lush Jungle",
+    "DESCRIPTIONS": [
+      "You reach a small creek. The water looks clear, and the area seems safe. NL ",
+      "You grab the fruit and eat it. NL ",
+      "~It~ ~tastes~ ~delicious.~ You feel invigorated",
+      "It tastes #rdisgusting. You feel ill."
+    ],
+    "OPTIONS": [
+      "[ Eat the #rRed #rFruit ] ?% #gGain #gMax #gHP or ?% #rLose #rMax #rHP",
+      "[ Eat the #bBlue #bFruit ] ?% #gGain #gMax #gHP or ?% #rLose #rMax #rHP",
+      "[ Eat the #gGreen #gFruit ]  ?% #gGain #gMax #gHP or ?% #rLose #rMax #rHP",
+      "[Leave]"
+    ]
+  },
+  "${modID}:RiverEvent": {
+    "NAME": "A Small Creek",
+    "DESCRIPTIONS": [
+      "You reach a small creek. The water looks clear, and the area seems safe.",
+      "Chose a card to remove"
+    ],
+    "OPTIONS": [
+      "[Clean yourself in the river] #gPermanently #gremove #ga #gcard #gfrom #gyour #gdeck.",
+      "[Rest of a while] #gHeal #g",
+      " #gHP",
+      "[Clean your gear] #gUpgrade #g2 #grandom #gcards",
+      "[Leave]",
+      "Requires cards to remove",
+      "Requires cards to upgrade"
+    ]
+  },
+  "${modID}:RuinsEvent": {
+    "NAME": "Old Ruins",
+    "DESCRIPTIONS": [
+      "Old ruins stand before you. This place appears to be what remains of some old settlement. NL There might be some useful things to find if search hard enough."
+    ],
+    "OPTIONS": [
+      "[Search the ruins] #gFind #b",
+      " #grandom #gpotions #gor #gcard #grewards.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:Shrine6Event": {
+    "NAME": "Candles",
+    "DESCRIPTIONS": [
+      "You find some peculiarly arranged candles at the entrance of a cave. Most of them are lit up.",
+      "The now lit candle illuminates some #y~GOLD~ underneath the wax.",
+      "As you put out the candle's light, you feel relaxed. Your mind feels sharper, less clouded by distractions.",
+      "You take one of the candles for yourself. Soon after, you start feeling #yashamed for stealing it."
+    ],
+    "OPTIONS": [
+      "[Lit one of the unlit candles] #g???",
+      "[Put out a lit candle] #b???",
+      "[Take one of the candles] #gGet #gan #gUncommon #gRelic. #rAdd #ra #rshame #rto #ryour #rdeck.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:Shrine10Event": {
+    "NAME": "Corrupted Shrine",
+    "DESCRIPTIONS": [
+      "A small shrine is surrounded by a dark fog. You get shivers just by standing near it."
+    ],
+    "OPTIONS": [
+      "[Pray] #rObtain #ra #rCurse. #gObtain #ga #grandom #gCommon #gRelic.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:Act1Entry": {
+    "NAME": "Sky and Stars",
+    "DESCRIPTIONS": [
+      "You are floating atop a sea of clouds, and above you is a starry night sky. As you begin to process your situation, two voices echo in your head. NL @\"BEING@ @FROM@ @ANOTHER@ @WORLD,@ #b@DO@ #b@YOU@ #b@SERVE@ #b@THE@ #b@STARS?@ #r@OR@ #r@DO@ #r@YOU@ #r@SERVE@ #r@THE@ #r@SKIES?\"@",
+      "A pade blue-haired woman clad in white robes appears before you. NL #b\"An #bobvious #bchoice\" NL Despite her speaking in a much softer tone, you identify her voice as one of the two you just heard. NL #b\"Even #bas #ba #bfoster #bchild, #byou #bare #bhenceforth #bmy #bchild #bstill. #bThus, #bas #byour #bnew #bgod #band #bmother, #bI #bshall #bgrant #byou #ba #bblessing\"",
+      "A red-skin blue-haired woman with six arms appears before you. NL #r\"An #robvious #rchoice\" NL Despite her without as much aggression, you identify her voice as one of the two you just heard. NL #r\"Your #rinvolvement #rin #rthe #revolution #rof #rthese #rskies #rwill #rnow #rbe #raccounted #rfor. #rNow, #ras #ryour #rnew #rgod, #rI #rshall #rgrant #ryou #ra #rblessing\"",
+      "#b\"With #bpleasure. #bMay #bthis #bworld #bbe #bkind #bto #byou, #bmy #bchild.\" NL ",
+      "#r\"Very #rwell. #rMay #rthe #rskies #rfuther #ryour #rgrowth, #rbeing #rfrom #rbeyond #rthe #rskies.\" NL ",
+      "You awaken if as from a dream on a field of grass, the woman is nowhere to be seen. Nevertheless, you've finally escaped that accursed Spire! NL As you look around, you realize you're standing on one of many islands, all floating over and within an endlessly vast blue sky."
+    ],
+    "OPTIONS": [
+      "#r[Serve #rthe #rSkies]",
+      "#b[Serve #bthe #bStars]",
+      "#rTake #r",
+      " #rdamage. #gGain ",
+      "#gGain #g",
+      " #gMax #gHP",
+      "#b[ #gObtain #gMemory #gof #gConstellations #b]",
+      "#r[ #rLose #r12 #rMaxHP. #gObtain #gDamascus #gIngot #r]",
+      "#b[ #gObtain #gProvidence #gGlobe #b]",
+      "#r[ #gObtain #gLegendary #gMerit #r]",
+      "#b[ #gObtain #gBlue #gCrystal #b]",
+      "#r[ #gObtain #gShield #gof #gTenets #r]",
+      "[Leave]"
+    ]
+  },
+  "${modID}:Act1EntryBak": {
+    "NAME": "Sky and Stars",
+    "DESCRIPTIONS": [
+      "You are floating atop a sea of clouds, and above you is a starry night sky. As you begin to process your situation, two voices echo in your head. NL @\"BEING@ @FROM@ @ANOTHER@ @WORLD,@ #b@DO@ #b@YOU@ #b@SERVE@ #b@THE@ #b@STARS?@ #r@OR@ #r@DO@ #r@YOU@ #r@SERVE@ #r@THE@ #r@SKIES?\"@",
+      "A pade blue-haired woman clad in white robes appears before you. NL #b\"An #bobvious #bchoice\" NL Despite her speaking in a much softer tone, you identify her voice as one of the two you just heard. NL #b\"Even #bas #ba #bfoster #bchild, #byou #bare #bhenceforth #bmy #bchild #bstill. #bThus, #bas #byour #bnew #bgod #band #bmother, #bI #bshall #bgrant #byou #ba #bblessing\"",
+      "A red-skin blue-haired woman with six arms appears before you. NL #r\"An #robvious #rchoice\" NL Despite her without as much aggression, you identify her voice as one of the two you just heard. NL #r\"Your #rinvolvement #rin #rthe #revolution #rof #rthese #rskies #rwill #rnow #rbe #raccounted #rfor. #rNow, #ras #ryour #rnew #rgod, #rI #rshall #rgrant #ryou #ra #rblessing\"",
+      "#b\"With #bpleasure. #bMay #bthis #bworld #bbe #bkind #bto #byou, #bmy #bchild.\" NL ",
+      "#r\"Very #rwell. #rMay #rthe #rskies #rfuther #ryour #rgrowth, #rbeing #rfrom #rbeyond #rthe #rskies.\" NL ",
+      "You awaken if as from a dream on a field of grass, the woman is nowhere to be seen. Nevertheless, you've finally escaped that accursed Spire! NL As you look around, you realize you're standing on one of many islands, all floating over and within an endlessly vast blue sky."
+    ],
+    "OPTIONS": [
+      "#r[Serve #rthe #rSkies]",
+      "#b[Serve #bthe #bStars]",
+      "#b[ ",
+      " #b]",
+      "#r[ ",
+      " #r]",
+      "#gChoose #g1 #gOmega #gColorless #gcard #gfrom #gthe #gskies #gto #gobtain.",
+      "#gObtain #ga #rrandom #yRare #gcard.",
+      "#g+10 #gMax #gHP.",
+      "#gTransform #ga #rrandom #gcard #gand #gupgrade #ga #rrandom #gcard.",
+      "#gRemove #g2 #rrandom #gcards.",
+      "===== Choice 2 Disadvantages =======",
+      "#rLose #r7 #rMax #rHP. ",
+      "#rObtain #ra #rCurse. ",
+      "#rLose #rall #rGold. ",
+      "===== Choice 2 Advantages =======",
+      "#gRemove #g2 #rrandom #gcards #gand #gtransform #g2 #rrandom #gcards",
+      "#gChoose #g1 #yCall Colorless #gcard #gfrom #gthe #gskies #gto #gobtain.",
+      "#gObtain #ga #rrandom #gUncommon #gRelic.",
+      "===== Choice 3 =======",
+      "#b[ #gObtain #ga #gSpecial #gRelic #b]",
+      "#r[ #gObtain #ga #gSpecial #gRelic #r]",
+      "[Leave]"
+    ]
+  },
+  "${modID}:Act2Entry": {
+    "NAME": "Peculiar Encounter",
+    "DESCRIPTIONS": [
+      "You follow a blue thread across the floating island as it guides you to a city. You can tell that the inhabitants know you're not a local from their passing glances, but they do not seem aggravated by your presence, yet. NL You feel a sudden tap on your shoulder and hear a nervous voice extend you a greeting. NL #p\"Hello.\"",
+      "A peculiar-looking ",
+      "wearing a white coat greets you. NL #p\"I #pam #pOrologia. #pI #pcame #phere #pto #poffer #psome #phelp. #pWhy? #pNo #pneed #pto #pworry, #pI #pam #pthe... #pWait. #pActually, #pI #pthink #pexplaining #ptoo #pmuch #phere #pcould #pbe #pbad... #pLet's #pjust #psay #pthat #pI #pam #pa #pfriend #pwanting #pto #phelp.\" NL Orologia shoots you a nervous smile.",
+      "#p\"Fortunately, #pyour #pconnection #pto #pthe #pskies #pseems #pstronger #pthan #pmost #pwho #pventure #pin #pfrom #pbeyond #pthe #pskies. #pHere, #pmaybe #pone #pof #pthese #pwill #phelp.",
+      "#p\"Unfortunately, #pthere #pisn't #pmuch #pI #pcan #pdo #pat #pthe #pmoment. #pYour #pconnection #pto #pthe #pskies #pis #pweak, #pand #pmany #pforces #pwill #pseek #pto #pharm #pyou, #pas #pthey #pconsider #pyou #pa #ppotentially #pdangerous #pforeign #pinfluence. #pI'll #pattempt #pto #pfortify #pyour #pbody, #pbut #panything #pbeyond #pthat #pis #pimpossible #pas #pyou #pare #pnow.\"",
+      "Orologia places ",
+      "hand on your head. You feel your body strengthen as new power flows into you. However, after the process is finished, you fail to find Orologia. ",
+      "seems to have vanished without you noticing. Before you can begin to search for ",
+      ", you hear a loud explosion followed by the cries of distressed people. It seems the city is under attack."
+    ],
+    "OPTIONS": [
+      "[ Requires #yUnknown #yPotential ]",
+      "[Turn to face them]",
+      "[Run ahead without turning]",
+      "[Accept help]",
+      "[Refuse help]",
+      "#gGain #g",
+      " #gMax #gHP.",
+      "Obtain #yOppressus #yFragor.",
+      "Obtain #yMimic #yChest #yMino.",
+      "Obtain #yOrologia's #yBlessing.",
+      "Obtain #yBlue #yYearning.",
+      "[Fight the attackers]"
+    ]
+  },
+  "${modID}:ThreoEahtaTrainingEvent": {
+    "NAME": "Threo and Eahta",
+    "DESCRIPTIONS": [
+      "A horned man and a horned woman both sit at the campfire as they happily enjoy meat and booze. They notice you before you are close enough to understand what they are talking about. NL \"How amusing to see a new face around these parts,\" the man's voice raspy yet booming voice calls out to you. \" Come, sit with us. A meal taste best when in good company.\" NL After some deliberation you sit with the pair. They offer to share their feast with you. You learn through conversing that the woman's name is Threo and the man's name is Eahta. They are both mighty warriors that specialize on their weapons of choice.",
+      "After some conversation, you decide to rest for a while. When you wake up, the three of you exchange goodbyes and go your separate ways.",
+      "Threo excitedly grabs her oversized axe and prepares to spar with you. NL \"I never back down from a good fight!\" NL You spar with Threo. Her blows are far mightier than you expected from someone of her frame and her fighting style is as unpredicable as it is deadly. You don't get by unscathed, but sparing with her has made you more resilient and more skilled in ways you did not expect. NL Afterwards, the three of you exchange goodbyes and go your separate ways.",
+      "Eahta stands and grabs his katanas. NL \"Very well, it is the duty of all masters to teach the next generation.\" NL You spar with Eahta. His blows are precise to a fault. You can tell he is more focused on ensuring you learn something from this fight than on winning. You make sure to learn all you can so that his lessons do not go to waste. NL Afterwards, the three of you exchange goodbyes and go your separate ways."
+    ],
+    "OPTIONS": [
+      "[Rest for a while] #gHeal #g",
+      " #gHP",
+      "[Train with Threo] #rLose #r",
+      " #rHP. #gGain #g ",
+      " #gMax #gHP. #gUpgrade #ga #grandom #gcard.",
+      "[Train with Eahta] #gUpgrade #g2 #gcards.",
+      "[Leave]",
+      "[Requires ",
+      " HP and 1 upgradable card in your full deck]",
+      "[Requires 1 upgradable card in your full deck]"
+    ]
+  },
+  "${modID}:ScalesOfDominionEvent": {
+    "NAME": "The Scales",
+    "DESCRIPTIONS": [
+      "You reach an shrine containing a statue of a large Primal stands holding a set of scales in its left hand. Despite holding nothing, the scales are unbalanced, with the left side lower than the right side.",
+      "As you balance the scales, you feel yourself become weaker. Once they are perfectly balanced, a voice rings inside your head. NL \"Your offering has been accepted.\" NL The statue releases the scales, which now rest in your hands.",
+      "As you further unbalance the scales, you feel your injuries heal, and a voice rings inside your head. NL \"Your decision has been made.\" NL You notice the eyes of the statue now glare directly at you and decide it is best to leave."
+    ],
+    "OPTIONS": [
+      "[Balance the scales] #rSet #rHP #rto #r50%. #gObtain #gScales #gof #gDominion",
+      "[Further unbalance the scales] Heal ",
+      " HP.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:TwinElementsEvent": {
+    "NAME": "Fire and Water",
+    "DESCRIPTIONS": [
+      "A heterochromatic woman stands before you. NL \"Adopted kin of the stars, linked with the will of ",
+      ", I offer you access to my second half. Accept my power, and you shall gain the mastery that those of ",
+      " from your home realm possess.\"",
+      "As you accept the power she offers you hear the sound of heavy machinery and overflowing electricity from within yourself. The abilities and techniques of the #bDefect are now within reach.",
+      "As you accept the power she offers you hear loud roars and the sound of metal blades clashing atop a battlefield. The abilities and techniques of the #rIronclad are now within reach.",
+      "You reject her power, but, strangely, you feel stronger nonetheless. It seems that you have gained greater affinity with your own power since it remains undiluted with that of others."
+    ],
+    "OPTIONS": [
+      "[Accept] #gObtain #g",
+      " #gcard #grewards #gfrom #gthe ",
+      "'s #gcard #gpool.",
+      "[Reject] Upgrade a random card.",
+      "[No cards to upgrade]",
+      "[Leave]"
+    ]
+  },
+  "${modID}:PrometheusEvent": {
+    "NAME": "Chains of Caucasus",
+    "DESCRIPTIONS": [
+      "You awaken held down to the floor by chains. They burn against your skin.",
+      "The chains burst into fire singing your skin as the fire seeps into your body. NL #r\"Our #rcontract #rhas #rbeen #rmade,\" you hear the voice of a woman say, and before you realize it, the chains have vanished.",
+      "As you struggle against the chains, they more on their own to release you. Once you are free, you hear the voice of a woman speak to you as the chains turn into ash. #r\"So #rbe #rit\""
+    ],
+    "OPTIONS": [
+      "[Hold onto the chains tightly] #rLose #r",
+      " #rHP. #gObtain #Prometheus' #gCall",
+      "[Free yourself] #rLose #r",
+      " #rHP. #gGain ",
+      " #gMax #gHP",
+      "[Leave]"
+    ]
+  },
+  "${modID}:GilgameshEvent": {
+    "NAME": "Chains of Caucasus",
+    "DESCRIPTIONS": [
+      "A tall red-haired man walks up to you. He is carrying an immense amount of equipment. Before you can muster a word, he speaks in a commanding tone. NL #y\"A #yweapon #yof #yyours #yfor #ya #yweapon #yof #ymine.\" NL You would rather not know what awaits you if you refuse.",
+      "#y\"Your #yweapons #yare #yweaker #ythan #yexpected,\" he comments before placing a hand on your head. You feel your body heal from its injuries. NL #y\"Be #ywell, #yLittle #ystar, #yand #ygrow #ystrong.\" NL The man rushes away, running far too fast for you to reach him.",
+      "#y\"Basic, #ybut #ynot #ywithout #yuse,\" he commends before handing you a very similar weapon, though of higher quality. Then, the man rushes away, running far too fast for you to reach him.",
+      "#y\"A #ygift #ysuch #yas #ythis #ydeserves #yto #ybe #ypaid #yback #ygenerously,\" he commends before placing a hand on your head. #y\"Our #ycontract #yhas #ybeen #ymade. #yCall #yfor #ymy #yaid #yin #yyour #ytime #yof #yneed, #yLittle #ystar.\" NL Then, the man rushes away, running far too fast for you to reach him.",
+      "#y\"A #ygift #ysuch #yas #ythis #ydeserves #yto #ybe #ypaid #yback #ygenerously,\" he commends before placing a hand on your head. #y\"I #ygive #yyou #ymy #yblessing. #yCall #yfor #ymy #yaid #yin #yyour #ytime #yof #yneed, #yLittle #ystar.\" NL Then, the man rushes away, running far too fast for you to reach him."
+    ],
+    "OPTIONS": [
+      "[Give him an Attack card]",
+      "[Leave]"
+    ]
+  },
+  "${modID}:BorgerEvent": {
+    "NAME": "The Chariot",
+    "DESCRIPTIONS": [
+      "You reach what appears to be the remains of a battlefield. A man dressed in fun armor sits atop a nearby rock drinking as he gazes towards the destruction left behind. NL \"A word of warning, stranger. Do not dwell long in the battlefield. With enough time, even victory will ring hollow.\"",
+      "You talk with the man. He introduces himself as Geisenborger. He has inhabited battlefields for a very long time, always gone undefeated. You try to learn as much as you can from the seasoned warrior's tales. After some time, he gives you a smile and produces a small trinket from his pockets. NL \"Take this. I am hoping to forever leave the battlefield, and it would be a shame for you to fall before you are witness my true calling.\" NL Geisenborger then stands, and after saying his goodbyes, leaves.",
+      "\"Do as you wish,\" the man says, seemingly unbothered by your intentions. NL You search the battlefield in search for something useful. Although there is not much that has not been destroyed already, you do find a useful tool."
+    ],
+    "OPTIONS": [
+      "[Talk to the man] #gObtain #gThe #gStar's #gTreads",
+      "[Search the battlefield] #gObtain #ga #grandom #grelic",
+      "[Leave]"
+    ]
+  },
+  "${modID}:RoseQueensEvent": {
+    "NAME": "The Forest of Roses",
+    "DESCRIPTIONS": [
+      "Thick thorny bushes stand in your path. You can see a small pathway that could lead you through. However, progress is both slow and painful. Alternatively, you could simply cut down the bushes as you progress.",
+      "You move through the thorny path. Each step is accompanied with the painful cuts of spines poking at and cutting you from every direction. Once you have finally freed yourself from the ordeal, a soft voice addresses you from behind your back. NL #r\"Thank #ryou. #rYour #rrestraint #rand #rkindness #rhas #rnot #rgone #runnoticed.\" NL You turn around, but find no one there. Instead, you notice a rose like crystal has been placed in your hand.",
+      "#r\"What #ra #rshame...\""
+    ],
+    "OPTIONS": [
+      "[Spare the bushes] #rLose ",
+      " #rHP. #gObtain #gCrystal #gRose",
+      "[Cut down the bushes]",
+      "[Leave]"
+    ]
+  },
+  "${modID}:SeofonAndNiyon": {
+    "NAME": "Seofon and Niyon",
+    "DESCRIPTIONS": [
+      "You encounter a duo of a tall man and an abnormally small woman. They are both happily enjoying playing music before they notice you. NL \"You're a face I haven't seen before. Come, enjoy some music with us. You can even join if you so wish.\", the man says.",
+      "\"Do not worry about your skill, simply enjoy yourself\", he says as the woman begins playing her harp. NL Hesitantly, you sing alongside them, the music seems to relieve you of your worries, if only for a moment.",
+      "You ask them if you can rest in their proximity. The man laughs and says, \"Of course! Feel free.\" The woman does not respond, but smiles softly, and as you sit down to rest, she begins to play a lullaby with her harp to help you sleep."
+    ],
+    "OPTIONS": [
+      "[Join them in song] #gRemove #ga #gcard #gfrom #gyour #gdeck",
+      "[Rest and listen] #gHeal #g",
+      " #gHP",
+      "[Leave]"
+    ]
+  },
+  "${modID}:CaOngEvent": {
+    "NAME": "The Flying Whale",
+    "DESCRIPTIONS": [
+      "You see a giant whale, adorned with gold and jewels fly above you. As it moves, it showers everything bellow it with the bright sparkles it releases.",
+      "As you touch one of the sparkles, you feel a warm invisible veil cover your body. Its protection gives you a peculiar sense of safety.",
+      "You collect one of the sparkles in a bottle for closer inspection. However, as soon as you close the lid, the sparkle expands and transforms into a familiar liquid."
+    ],
+    "OPTIONS": [
+      "[Touch one of the sparkles] #gObtain #gCa #gOng's #gCall",
+      "[Capture a sparkle in a bottle] #gObtain #gan #gAncient #gPotion",
+      "[Leave]"
+    ]
+  },
+  "${modID}:OdinEvent": {
+    "NAME": "Fast As Lightning",
+    "DESCRIPTIONS": [
+      "A man on a horse passes beside you at blistering speed.",
+      "He does not respond, but somehow, you are now able to follow his movements far better."
+    ],
+    "OPTIONS": [
+      "[Call out to him] #gObtain #gOdin's #gCall",
+      "[Ignore him]"
+    ]
+  },
+  "${modID}:YatimaEvent": {
+    "NAME": "Prayers to the Moon",
+    "DESCRIPTIONS": [
+      "#b\"Yatima, #bI'm #bcounting #bon #byou,\" you hear the voice of a man say before a woman with many metallic tendrils responds #r\"Limiter #rUnlocked.\" NL As she speaks, you can feel a flow of energy pass through you as if you were a conduit for some greater purpose.",
+      "You allow the energy to flow through you. As it does, visions of the moon flash before your eyes. Followed by a feeling of nostalgia, then one of abandonment, and one of comfort. As you awaken from the dream, you hear Yatima's voice once again, #r\"Thank #ryou.\"",
+      "You attempt to retain as much energy as you can in the hopes of strengthening yourself. As you do, the energy rampages and crimson-colored crystal spikes jet out from your body. Right before you wake, you see Yatima glance at you with pity in her eyes. You return to the waking world to find your body intact, though some small chunks of crimson-colored crystal remain in your arm."
+    ],
+    "OPTIONS": [
+      "[Allow the energy to flow] #gObtain #gMoon #gPrayers",
+      "[Attempt to retain the energy] #gObtain #gRubea #gStiria",
+      "[Leave]"
+    ]
+  },
+  "${modID}:JewelResortCasinoEvent": {
+    "NAME": "Jewel Resort Casino",
+    "DESCRIPTIONS": [
+      "Looking for a safe location to rest, you are beckoned by the sound of... music? Following the cheerful melody you reach a building. NL #y\"Welcome #yto #ythe #yJewel #yResort #yCasino, #ywhere, #yeven #yin #ytime #yof #ydistress, #yyou #ycan #ylet #ygo #yof #yyour #yworries.\"",
+      "\"Such luck! Would you like to play another round?\"",
+      "\"What a shame. Oh well, better luck next time!\"",
+      "\"Hope you had fun! No refunds.\""
+    ],
+    "OPTIONS": [
+      "[Play higher or lower] #rPay #r100 #rgold. #g50% #gchance #gto #gdouble #gyour #gmoney.",
+      "[Play slots] #rPay #r50 #rgold. #gGain #grandom #gamount #gbetween #g0 #gand #g100 #ggold.",
+      "[Leave]"
+    ]
+  },
+  "${modID}:IlsaEvent": {
+    "NAME": "Ilsa's Regiment",
+    "DESCRIPTIONS": [
+      "You decide to take a small rest before a woman dressed in a white and red uniform approaches you and screams. NL \"You, soldier! What do you think you're doing slacking off there?! We are under attack, so you better get your ass up and get back in formation before I shove my boot up it! You hear me, maggot?! Get the back in the fray! NOW!\"",
+      "After the fight, the woman approaches you again. NL \"You are not one of our guys, aren't you? I could tell. You fight different from our troops. Nevertheless, your help was greatly appreciated in this operation. I am Ilsa. I am leading the operation against these Primals. I do not have much to offer as payment for your service, but do pass through our medical center before you leave. I can at least let you treat some of your injuries as recompense for your efforts.\"",
+      "\"You're a civilian?! Then follow me, I'll take you to the closest shelter.\" The woman guides you to a safe location. \"I am Ilsa. I am leading the operation of protecting this city. Take this.\" She hands you a set of medical supplies. \"If you think you don't need them, give them to anyone you find who does. And don't go wandering around! A civilian like you could get seriously injured in a situation like this!\" Ilsa then swiftly leaves before you can even respond."
+    ],
+    "OPTIONS": [
+      "[Join the ranks] #rLose #r",
+      " #rHP. #gGain #g",
+      " #gMax #gHP. #gObtain #gMeteor's #gLight.",
+      "[Explain you are not one of her soldiers] #gObtain #ghealing #gpotion",
+      "[Leave]"
+    ]
+  },
+  "${modID}:AstralBlessingEvent": {
+    "NAME": "Blessings of the Mother",
+    "DESCRIPTIONS": [
+      "\"I am so happy to see you recover the power we have left behind, my child. However, I see they have lost much of their power. I cannot restore them to their prime from where I am, but strengthening to a more acceptable state should be easy.\"",
+      "\"Done. Good luck, my child.\""
+    ],
+    "OPTIONS": [
+      "#gOmega #g1 #gSummon #gCalls #gare #gEmpowered",
+      "[Leave]"
+    ]
+  },
+  "${modID}:PortraitTienEvent": {
+    "NAME": "Framed Portrait",
+    "DESCRIPTIONS": [
+      "As you pass beside a partially destroyed house, a portrait of a red-haired woman against a still intact wall catches your eye. Although, the rest of the adornments are severally damaged, the portrait alone remains intact.",
+      "You find some gold and a potion within a compartment hidden behind the painting.",
+      "You decide to take the portrait with out."
+    ],
+    "OPTIONS": [
+      "[Examine the portrait closely] #gObtain #g",
+      " #gGold #gand #ga #grandom #gpotion",
+      "[Take the portrait with you] #gObtain #gTien's #gPortrait",
+      "[Leave]"
+    ]
+  }
+}

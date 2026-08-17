@@ -1,0 +1,785 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "优良遗物",
+    "FLAVOR": "在遗物详细界面中显示的风味文本。",
+    "DESCRIPTIONS": [
+      "在你的回合开始时获得 [E]。[E] 是能量图标。"
+    ]
+  },
+  "${modID}:BlueCrystal": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "一颗在光芒中璀璨闪耀的水晶。",
+    "DESCRIPTIONS": [
+      "每场战斗中第一次获得 #y力量、#y敏捷、#y集中 或 #y真言 时，额外获得 #b1 点。"
+    ]
+  },
+  "${modID}:BlueCrystalBelial": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "一颗在光芒中璀璨闪耀的水晶。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 点力量、#b1 点敏捷和 #b1 点 #y集中。"
+    ]
+  },
+  "${modID}:BlueCrystalYatima": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "一颗在光芒中璀璨闪耀的水晶。",
+    "DESCRIPTIONS": [
+      "每场战斗的前 #b3 个回合中，你每回合打出的第一张牌会打出两次。"
+    ]
+  },
+  "${modID}:ShieldOfTenets": {
+    "NAME": "教义之盾",
+    "FLAVOR": "象征天空之神力量的遗物。",
+    "DESCRIPTIONS": [
+      "每当你向牌组中加入一张 #y稀有 牌时，将其 #y升级。"
+    ]
+  },
+  "${modID}:SwordOfBahamut": {
+    "NAME": "巴哈姆特之剑",
+    "FLAVOR": "这把剑蕴含着对伟大之龙利爪的敬畏。致命的剑刃甚至能剜出大地的核心，将其远远抛向天际。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 1 点 力量。"
+    ]
+  },
+  "${modID}:SwordOfBahamutCoda": {
+    "NAME": "巴哈姆特之剑·终章",
+    "FLAVOR": "仿照伟大之龙的利爪铸成，是一柄令众生畏惧的终极之剑。若以其斩裂大地，甚至能让整个世界坠入天空深渊。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 2 点 力量。 获得 4 点最大生命。"
+    ]
+  },
+  "${modID}:DaggerOfBahamut": {
+    "NAME": "巴哈姆特短剑",
+    "FLAVOR": "这把短剑蕴含着对伟大之龙强大獠牙的敬畏。其无穷力量足以斩断命运之线，瞬间抹去受害者的存在。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 1 点 敏捷。"
+    ]
+  },
+  "${modID}:DaggerOfBahamutCoda": {
+    "NAME": "巴哈姆特短剑·终章",
+    "FLAVOR": "这把短剑因敬仰伟大之龙的强大獠牙而诞生。一击便可撕裂命运本身，宣告受害者的终结，不留下任何存在过的痕迹。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 2 点 敏捷。 获得 4 点最大生命。"
+    ]
+  },
+  "${modID}:StaffOfBahamut": {
+    "NAME": "巴哈姆特法杖",
+    "FLAVOR": "这根法杖蕴含着对伟大之龙浩瀚智慧的敬畏。它能轻易驾驭远超人类理解的绝望。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 1 点 集中。"
+    ]
+  },
+  "${modID}:StaffOfBahamutCoda": {
+    "NAME": "巴哈姆特法杖·终章",
+    "FLAVOR": "仿照伟大之龙崇高智慧塑成，是一根令众生畏惧的终极法杖。其至高智慧远超人类心智，本能地囊括永恒与真理。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，获得 2 点 集中。 获得 4 点最大生命。"
+    ]
+  },
+  "${modID}:HarpOfBahamut": {
+    "NAME": "巴哈姆特竖琴",
+    "FLAVOR": "这把竖琴蕴含着对伟大之龙漆黑双翼的敬畏。其毁灭性的音色会令所有听者疯狂，并使天空陷入混乱。",
+    "DESCRIPTIONS": [
+      "战斗开始时，将一张 #y奇迹 加入你的手牌。"
+    ]
+  },
+  "${modID}:HarpOfBahamutCoda": {
+    "NAME": "巴哈姆特竖琴·终章",
+    "FLAVOR": "这把竖琴呈现至高之龙双翼独特的形态。琴弦奏出的旋律会令所有听者陷入疯狂，并召来灾难性的龙卷风。",
+    "DESCRIPTIONS": [
+      "战斗开始时，将一张 #y奇迹+ 加入你的手牌。获得4点最大生命。"
+    ]
+  },
+  "${modID}:ShieldOfLamentation": {
+    "NAME": "哀叹之盾",
+    "FLAVOR": "属于一位自高天降临、为重塑混乱世界而战的骑士之盾。",
+    "DESCRIPTIONS": [
+      "每当你打出一张 #y攻击，所有敌人失去 ",
+      " 点额外生命。 NL 每10级进阶额外造成1点伤害。"
+    ]
+  },
+  "${modID}:CosmicSword": {
+    "NAME": "宇宙之剑",
+    "FLAVOR": "支配混沌、维系平衡之剑。红瞳少女编织被奴役之龙的力量，以向天空的祈愿将其结晶。光辉化作黎明，为动荡的世界带来秩序。",
+    "DESCRIPTIONS": [
+      "若你在同一回合内打出 #y能力、#y攻击 和 #y技能，则本回合剩余时间内你的 #y技能 造成的所有伤害翻倍。"
+    ]
+  },
+  "${modID}:AzureFeather": {
+    "NAME": "苍蓝之羽",
+    "FLAVOR": "一根深蓝色的羽毛。",
+    "DESCRIPTIONS": [
+      "每场战斗的前 #b3 个回合中，你每回合打出的第一张 #y攻击 牌会为你 #g回复 ",
+      " 点生命。"
+    ]
+  },
+  "${modID}:CrystalRose": {
+    "NAME": "水晶玫瑰",
+    "FLAVOR": "这枚玫瑰形水晶拥有刺目的绯红色泽，散发美丽光辉。",
+    "DESCRIPTIONS": [
+      "获得你的第一个遗物的复制品（除非它是 #y水晶 #y玫瑰）。"
+    ]
+  },
+  "${modID}:LoveEternal": {
+    "NAME": "永恒之爱",
+    "FLAVOR": "玫瑰装点着精美的剑身，刃口闪烁神秘光泽。它仿佛诞生于时间之前，并曾侍奉一个远早于我们的世界。",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，将一张 #y小刀 加入手牌。你每拥有1点 #y敏捷 和 #y集中，它便额外造成1点伤害。"
+    ]
+  },
+  "${modID}:VerdantAzurite": {
+    "NAME": "翠绿蓝铜矿",
+    "FLAVOR": "一种能够引出裁决之力的晶体结构。",
+    "DESCRIPTIONS": [
+      "将你牌组中最高稀有度的 #b2 张牌 #y升级。"
+    ]
+  },
+  "${modID}:RoseShield": {
+    "NAME": "玫瑰之盾",
+    "FLAVOR": "玫瑰女王的遗物。凡目睹她魅惑绯红玫瑰之人都会瞬间为其所惑。愚蠢到向她开战者，很快便会被花瓣与藤蔓组成的坟墓吞噬。",
+    "DESCRIPTIONS": [
+      "每当你将失去生命时，少失去 #b1 点。"
+    ]
+  },
+  "${modID}:CelesteClawOmega": {
+    "NAME": "塞莱斯特之爪",
+    "FLAVOR": "黑暗中微光闪烁，三道利爪无声划破夜色，为凋零之花染上一层新的暗色。",
+    "DESCRIPTIONS": [
+      "当生命低于 #b50% 时，每当你打出一张 #y攻击，对随机敌人造成 #b1 点伤害 #b（你的 #b生命 #b越低，#b伤害 #b越高）。"
+    ]
+  },
+  "${modID}:ColossusFistOmega": {
+    "NAME": "巨人之拳",
+    "FLAVOR": "足以撕裂钢铁的无声尖啸召来灼热高温，将你的双拳包裹。",
+    "DESCRIPTIONS": [
+      "每场战斗的第一回合中，每当你受到攻击时，反击造成 #b6 点伤害。"
+    ]
+  },
+  "${modID}:LeviathanScepterOmega": {
+    "NAME": "利维坦权杖",
+    "FLAVOR": "权杖轻轻一挥，便释放出支配海洋的力量。",
+    "DESCRIPTIONS": [
+      "本场战斗第一次 #g回复 生命时，额外 #g回复 #b2 点生命。"
+    ]
+  },
+  "${modID}:LuminieraSwordOmega": {
+    "NAME": "骑士之剑",
+    "FLAVOR": "为了守护承诺与尊严，骑士挥舞这柄永远闪耀的剑；即使面对寻常盗匪，每一次交锋也都赌上性命。",
+    "DESCRIPTIONS": [
+      "获得时，获得 #b2 点最大生命。每场战斗你的第一次 #y攻击 额外造成 #b2 点伤害。"
+    ]
+  },
+  "${modID}:TiamatGlaiveOmega": {
+    "NAME": "提亚马特长刀",
+    "FLAVOR": "狂风化作利刃。",
+    "DESCRIPTIONS": [
+      "战斗开始时获得 #b2 点 #y临时 #y敏捷。"
+    ]
+  },
+  "${modID}:YggdrasilBowOmega": {
+    "NAME": "世界树之弓",
+    "FLAVOR": "它的箭矢寻找祭品滋养巨树；纵使鲜血遍地，树上花朵仍宁静绽放。",
+    "DESCRIPTIONS": [
+      "生命全满时，获得 #b1 点 #y力量。"
+    ]
+  },
+  "${modID}:TyrosZither": {
+    "NAME": "泰罗斯小插曲",
+    "FLAVOR": "一位身披闪耀暮光的优雅少女，曾将这件乐器献出，以赞颂空之民的英勇。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次打出 #y稀有 牌时，抽 #b1 张牌。"
+    ]
+  },
+  "${modID}:TridentOfBrahman": {
+    "NAME": "梵天三叉戟",
+    "FLAVOR": "此枪只需一刺，便足以撕裂天空。",
+    "DESCRIPTIONS": [
+      "每场战斗打出的第一张 #y攻击 会打出两次。"
+    ]
+  },
+  "${modID}:LastStormBlade": {
+    "NAME": "终末风暴之刃",
+    "FLAVOR": "刃锋卷起猛烈狂风，将敌人一一斩裂，直至战场归于寂静。",
+    "DESCRIPTIONS": [
+      "本场战斗打出第三张 #y攻击 后，获得 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:NibelungKlinge": {
+    "NAME": "尼伯龙根之剑",
+    "FLAVOR": "伟大守护者的庇护之力化作宝刃，对邪恶降下裁决。",
+    "DESCRIPTIONS": [
+      "有 #b5% 的概率闪避攻击并反击造成 #b6 点伤害。"
+    ]
+  },
+  "${modID}:AnimaCeleste": {
+    "NAME": "与Celeste的契约",
+    "FLAVOR": "幽灵船Celeste航行于灾厄之浪。船尾留下污秽瘴气，使吸入者陷入永恒奴役。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yCeleste的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaColossus": {
+    "NAME": "与Colossus的契约",
+    "FLAVOR": "Colossus庞大的铠甲是不灭复仇的化身。驱动它的或许是渴望，或许是愤怒，无人知晓。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yColossus的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaLeviathan": {
+    "NAME": "与Leviathan的契约",
+    "FLAVOR": "群岛之水的化身再次归于平静。它一心祈愿清澈蔚蓝的水域永不再受侵扰。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yLeviathan的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaLuminiera": {
+    "NAME": "与Luminiera的契约",
+    "FLAVOR": "这位骑士般的星晶兽是其指挥者生命力的化身。强大的力量既能守护主人，也能化作歼灭敌人的利刃。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yLuminiera的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaTiamat": {
+    "NAME": "与Tiamat的契约",
+    "FLAVOR": "Tiamat静静守望万物。愿她撼动天空的狂风永不再现。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yTiamat的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaYggdrasil": {
+    "NAME": "与Yggdrasil的契约",
+    "FLAVOR": "一切绿意的母亲与守护者将力量赐予空之民，愿无声者的痛苦终有一日从世间消失。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yYggdrasil的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaAlexiel": {
+    "NAME": "与Alexiel的契约",
+    "FLAVOR": "神域的神圣守护者。凭借映照万物的镜刃结界与身披镜刃鳞片的守护龙，她绝不容任何邪恶通过。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yAlexiel的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaEuropa": {
+    "NAME": "与Europa的契约",
+    "FLAVOR": "传说曾有一位美貌无双之人，诸神因此赐予她永恒生命。自远古以来她便令诸天倾倒，而这份美丽也将延续至永恒之外。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yEuropa的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaGrimnir": {
+    "NAME": "与Grimnir的契约",
+    "FLAVOR": "乘旋风而来的战神。尽管狂风已为他卷来无数胜利，这位神明仍执着追求更强大的力量。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yGrimnir的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaShiva": {
+    "NAME": "与Shiva的契约",
+    "FLAVOR": "世间万物皆非永恒。这位凶猛的毁灭之神以超越善恶的目光凝视不断变化的世界。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yShiva的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaAthena": {
+    "NAME": "与Athena的契约",
+    "FLAVOR": "Athena赐予信徒庇护与智慧，而她的敌人则会在炽热枪尖下遭受无情惩罚。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yAthena的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaGrani": {
+    "NAME": "与Grani的契约",
+    "FLAVOR": "神马载着英雄Grani奔赴战场。二者致命的攻势能在顷刻间逆转战局。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yGrani的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaBaal": {
+    "NAME": "与Baal的契约",
+    "FLAVOR": "雷声震天，闪电贯地。Baal的怒火令整个天空畏惧，他所过之处皆掀起最猛烈的风暴。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yBaal的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaGaruda": {
+    "NAME": "与Garuda的契约",
+    "FLAVOR": "Garuda是勇气的年轻化身，仅用一根手指便能驾驭狂暴风暴。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yGaruda的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaOdin": {
+    "NAME": "与Odin的契约",
+    "FLAVOR": "只有知晓一切真理的最终答案，Odin对智慧的渴求才会得到满足。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yOdin的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:AnimaLich": {
+    "NAME": "与Lich的契约",
+    "FLAVOR": "复仇的尸王Lich以令人彻骨生寒的尖啸攻击。所有生灵都在无法逃避的恐惧中向他屈服。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yLich的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:SwordOfPallas": {
+    "NAME": "帕拉斯之剑",
+    "FLAVOR": "此刃会自行选择主人。它赐勇气予有资格者，赐烈火惩罚予无资格者。",
+    "DESCRIPTIONS": [
+      "每当你将失去超过当前生命一半的生命时，少失去 #b2 点。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:BowOfSigurd": {
+    "NAME": "西格鲁德之弓",
+    "FLAVOR": "从这把优雅弓中射出的箭矢如闪电般划过天空，描绘出主人心中设想的轨迹。",
+    "DESCRIPTIONS": [
+      "你的第二回合开始时，获得 #b2 点 #y临时 #y力量。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:SolomonAxe": {
+    "NAME": "所罗门之斧",
+    "FLAVOR": "轰鸣雷霆为这件武器注入力量。震耳欲聋的咆哮召来势不可挡的神罚雷电。",
+    "DESCRIPTIONS": [
+      "当你造成15点或更多伤害时，对目标施加 #y易伤。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:PlumeOfSuparna": {
+    "NAME": "苏帕尔纳之羽",
+    "FLAVOR": "这把华丽的暮橙色短剑闪耀着纯粹勇气的光辉。",
+    "DESCRIPTIONS": [
+      "每场战斗第三次打出 #y能力 牌后，回复 #b1 点生命。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:Gungnir": {
+    "NAME": "冈格尼尔",
+    "FLAVOR": "这柄必中圣枪由最睿智诸神的力量与智慧共同塑成。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yOdin的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:Obscuritas": {
+    "NAME": "奥布斯库里塔斯",
+    "FLAVOR": "这根法杖诞生于大地尽头由悲伤与怨恨形成的阴暗漩涡。",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #yLich的 #y召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:DamascusIngot": {
+    "NAME": "大马士革锭",
+    "FLAVOR": "这种难以获得的金属散发神秘能量。",
+    "DESCRIPTIONS": [
+      "获得时，升级牌组中所有非基础 #y打击 或 #y防御 的牌。",
+      "额外打击",
+      "跳过奖励",
+      "获得时，升级所有 #y初始 #y打击，并从牌组中移除所有 #y初始 #y防御。"
+    ]
+  },
+  "${modID}:LegendaryMerit": {
+    "NAME": "传奇功勋",
+    "FLAVOR": "仅授予登临卓越巅峰的空之民的殊荣。",
+    "DESCRIPTIONS": [
+      "获得时：移除牌组中所有不是 #y打击 或 #y防御 的牌。 NL #y升级 接下来获得的 #b",
+      " 张牌。",
+      " 张牌。",
+      "额外打击",
+      "跳过奖励",
+      "获得时：移除牌组中所有不是 #y打击 或 #y防御 的牌。 NL #y升级 接下来获得的相同数量的牌 #b（至少 #b1 张）。"
+    ]
+  },
+  "${modID}:ConstellationRelic": {
+    "NAME": "星座的记忆",
+    "FLAVOR": "很久以前，星之民入侵空之世界；战争结束后，他们从历史篇章中被抹去，如今只留下纯粹的谜团。",
+    "DESCRIPTIONS": [
+      "每获得一张星晶兽的牌，下场战斗开始时获得 [E]。每场战斗后重置。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:ProvidenceGlobe": {
+    "NAME": "天命之球",
+    "FLAVOR": "通往宇宙法则的窗口，可借此驾驭诸神之力。",
+    "DESCRIPTIONS": [
+      "每当你获得一张星晶兽的牌时，将其 #y升级。"
+    ]
+  },
+  "${modID}:PlusMarkBlue": {
+    "NAME": "未知潜能",
+    "FLAVOR": "凝望苍蓝天空，心中的渴望愈发强烈。",
+    "DESCRIPTIONS": [
+      "进入 #y第二幕：#秘术 时，若你尚未开启 #yBoss #y宝箱，则额外获得一个遗物。"
+    ]
+  },
+  "${modID}:OppressusFragorRelic": {
+    "NAME": "撞毁",
+    "FLAVOR": "火、水、土、风、光、暗——构成并维系空之世界的六大楔子，即使这个世界并不稳定且已然扭曲。",
+    "DESCRIPTIONS": [
+      "每当你打出一张牌时，本场战斗剩余时间内将其 #y升级。",
+      "将 #y天空之楔 加入牌组。每次与六龙之一（第二幕精英）战斗后强化它。若 #y天空之楔 已升级且拥有全部6种色素，则再次升级。"
+    ]
+  },
+  "${modID}:BestLivesTogetherRelic": {
+    "NAME": "奥罗罗贾亚的祝福",
+    "FLAVOR": "“我一次又一次地重复那个过程。再一次。再一次。独自一人。”",
+    "DESCRIPTIONS": [
+      "第一次受到会使你的生命降至1或更低的伤害时： NL 1. 在受到伤害前完全回复生命。 NL 2. 移除你身上的所有减益。 NL 3. 本局剩余时间内，每回合开始时额外获得 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:MimicChestMino": {
+    "NAME": "迷你模仿箱",
+    "FLAVOR": "喜欢囤积财宝的贪婪生物。",
+    "DESCRIPTIONS": [
+      "获得 #b",
+      " #y金币，并且每场战斗额外获得 #b1 个卡牌奖励。 NL 自上次战斗胜利以来，你的完整牌组每增加一张牌，每回合开始时额外获得 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:TranscendentBlue": {
+    "NAME": "苍蓝渴望",
+    "FLAVOR": "因果之龙掌管时间之流，以虔诚的恩泽暗中守望苍蓝天空。",
+    "DESCRIPTIONS": [
+      "每场战斗的第一回合获得 #b2 点 #y能量，并额外抽 #b2 张牌。"
+    ]
+  },
+  "${modID}:FirestormScythe": {
+    "NAME": "火焰风暴镰刀",
+    "FLAVOR": "绯红双翼卷起的猛烈火焰足以将万物焚为焦土，却也能播下文明的种子。",
+    "DESCRIPTIONS": [
+      "你的 #y稀有 #y攻击 额外造成 ",
+      " 点伤害。"
+    ]
+  },
+  "${modID}:CalamitousAquashade": {
+    "NAME": "灾厄水影伞",
+    "FLAVOR": "这把看似无害的伞即使轻轻触碰，也会让藏于伞褶中的超常剧毒麻痹你的感官。",
+    "DESCRIPTIONS": [
+      "战斗开始时，每拥有 ",
+      " 点 #y最大 #y生命，获得 #b1 点 #y力量、#b1 点 #y敏捷 和 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:LandslideScepter": {
+    "NAME": "山崩权杖",
+    "FLAVOR": "仅仅看见这柄权杖，就仿佛站在最高绝壁之下，体验一种侵入现实的超自然威压。",
+    "DESCRIPTIONS": [
+      "若你的完整牌组中含有 ",
+      " 张同名牌，则战斗开始时获得 #b1 点 #y力量、#b1 点 #y敏捷 和 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:PiercingGalewing": {
+    "NAME": "穿刺风翼",
+    "FLAVOR": "此刃一挥，便召来如原初风暴般超自然的狂风，将沿途万物绞碎。",
+    "DESCRIPTIONS": [
+      "使你造成的 #y${modID}:Magic_Damage 提高 #b",
+      "."
+    ]
+  },
+  "${modID}:ImperiousFury": {
+    "NAME": "威权之怒",
+    "FLAVOR": "不染任何杂质的白光释放万千色彩，最终化为无形无质之物。",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，对所有敌人造成 #b1 点伤害，并且完整牌组中每有 ",
+      " 张牌，获得 #b1 点 #y格挡。"
+    ]
+  },
+  "${modID}:SkeletalEclipse": {
+    "NAME": "骸骨蚀",
+    "FLAVOR": "被这柄枪迷惑者会发现意识逐渐被抽离，最终迎来死亡。",
+    "DESCRIPTIONS": [
+      "每当你打出一张 #y攻击，对所有敌人造成等同于其费用的伤害。"
+    ]
+  },
+  "${modID}:ArcarumJudgementReversed": {
+    "NAME": "审判·逆位",
+    "FLAVOR": "这位肯定命运的存在化作胜利的合唱，宣告公正而迅捷的审判即将到来。",
+    "DESCRIPTIONS": [
+      "你的回合开始时： NL 若你没有减益，额外抽 #b1 张牌。 NL 若你有减益，获得 #b1 点临时 #y力量。"
+    ]
+  },
+  "${modID}:ArcarumJusticeReversed": {
+    "NAME": "正义·逆位",
+    "FLAVOR": "这位肯定命运的存在化作持剑而生的天平，守护它立誓捍卫的价值。",
+    "DESCRIPTIONS": [
+      "每当你打出一张费用为偶数的 #y攻击 时，造成 #b",
+      " 点伤害并施加 #b",
+      " 层 #y虚弱。 NL ",
+      "#b（若 #b没有 #b目标，#b则对 #b随机 #b敌人）"
+    ]
+  },
+  "${modID}:ArcarumHangedManReversed": {
+    "NAME": "倒吊人·逆位",
+    "FLAVOR": "这位肯定命运的存在化作倒悬之人，因过错而被以脚踝吊起受罚。",
+    "DESCRIPTIONS": [
+      "若牌组中所有牌的名称都不同 #b（不 #b计算 #b初始 #b卡牌），战斗开始时获得 #b1 点 #y力量 和 #b1 点 #y敏捷。"
+    ]
+  },
+  "${modID}:ArcarumDeathReversed": {
+    "NAME": "死神·逆位",
+    "FLAVOR": "这位肯定命运的存在化作死亡使者，优雅地挥舞镰刀。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b13 层 #y爱的救赎。"
+    ]
+  },
+  "${modID}:ArcarumTemperanceReversed": {
+    "NAME": "节制·逆位",
+    "FLAVOR": "这位肯定命运的存在化作恰如其分的克制，以对流动圣杯的精准掌控维护审慎之德。",
+    "DESCRIPTIONS": [
+      "若你的回合中没有打出任何 #y攻击，则下回合获得 #b",
+      " 点临时 #y力量。"
+    ]
+  },
+  "${modID}:ArcarumDevilReversed": {
+    "NAME": "恶魔·逆位",
+    "FLAVOR": "这位肯定命运的存在化作诱惑恶魔，以利爪袭向被引诱靠近的无辜者。",
+    "DESCRIPTIONS": [
+      "每当你受到来自具有 #y易伤 的敌人的 #y攻击 伤害时，少受到 #b1 点伤害。每当你对具有 #y虚弱 的敌人造成 #y攻击 伤害时，额外造成 #b1 点伤害。"
+    ]
+  },
+  "${modID}:ArcarumTowerReversed": {
+    "NAME": "高塔·逆位",
+    "FLAVOR": "这位肯定命运的存在化作灾厄堡垒，升上天空，预示迫近的危机。",
+    "DESCRIPTIONS": [
+      "每第3个回合开始时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "${modID}:ArcarumStarsReversed": {
+    "NAME": "星星·逆位",
+    "FLAVOR": "这位肯定命运的存在化作闪耀希望，挥洒星辰般的火花。",
+    "DESCRIPTIONS": [
+      "单次攻击最多使你失去 #b",
+      " 点生命。"
+    ]
+  },
+  "${modID}:ArcarumMoonReversed": {
+    "NAME": "月亮·逆位",
+    "FLAVOR": "这位肯定命运的存在化作魅惑的月之战士，照亮深藏心底的幻妄。",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 每回合造成的伤害提高 #b",
+      "%。"
+    ]
+  },
+  "${modID}:ArcarumSunReversed": {
+    "NAME": "太阳·逆位",
+    "FLAVOR": "这位肯定命运的存在化作吉兆之球，光环迸发能量，灿然闪耀。",
+    "DESCRIPTIONS": [
+      "每当你抽牌后手牌达到 #b10 张时，你的下一张 #y攻击 费用变为0。"
+    ]
+  },
+  "${modID}:PhasesOfTheMoon": {
+    "NAME": "月相",
+    "FLAVOR": "夜空之球的纯净光芒，仍将映照太阳的腐化。",
+    "DESCRIPTIONS": [
+      "追踪月相。"
+    ]
+  },
+  "${modID}:HollowKeyRelic": {
+    "NAME": "空洞之钥",
+    "FLAVOR": "据说这把神秘钥匙能够干涉过去与未来的事件。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次在未打出任何牌的情况下结束回合时，获得一个额外回合。"
+    ]
+  },
+  "${modID}:EnigmaticArmillaRelic": {
+    "NAME": "神秘臂环",
+    "FLAVOR": "能够转化遗物力量的装置。其运作机制与力量来源仍未被破解。",
+    "DESCRIPTIONS": [
+      "获得你已拥有其遗物的 #y星晶兽 的卡牌。"
+    ]
+  },
+  "${modID}:WorldideanRelic": {
+    "NAME": "与The World的契约",
+    "FLAVOR": "啊，理想世界何其遥远！",
+    "DESCRIPTIONS": [
+      "获得时，将一张 #y未成形的 #y世界 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "${modID}:TheWorldCard": {
+    "NAME": "世界·正位",
+    "FLAVOR": "这是象征因果与命运的二十二个符号之一。神性受到挑战，它再次点燃反叛的余烬。",
+    "DESCRIPTIONS": [
+      "根据你的角色获得五种世界竖琴遗物之一。",
+      " NL 当前角色：",
+      " NL 你的世界竖琴遗物将是 ",
+      "世界母马",
+      "世界之狮",
+      "世界之埃托斯",
+      "世界金牛座",
+      "世界天使报喜"
+    ]
+  },
+  "${modID}:WorldforgingMorosRelic": {
+    "NAME": "世界母马",
+    "FLAVOR": "新世界的碎片，诞生于旧世界被判定不配存在之时。",
+    "DESCRIPTIONS": [
+      "你的 #y稀有 #y攻击 造成的伤害提高 #b20%。每当你获得 #y格挡 时，获得量提高 #b10%（至少额外 #b1 点）。"
+    ]
+  },
+  "${modID}:WorldscathingLeonRelic": {
+    "NAME": "世界之狮",
+    "FLAVOR": "作为世界支柱，四形兽之狮召来灼热烈焰，迎接新的秩序。",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 造成的伤害提高 #b15%。每当你获得 #y格挡 时，获得量提高 #b10%（至少额外1点）。"
+    ]
+  },
+  "${modID}:WorldstormingAetosRelic": {
+    "NAME": "世界之埃托斯",
+    "FLAVOR": "作为世界支柱，四形兽之鹰召来滔天巨浪，迎接新的秩序。",
+    "DESCRIPTIONS": [
+      "每当你将造成伤害时，使其增加 #b1。每当你获得 #y格挡 时，获得量提高 #b10%（至少额外 #b1 点）。"
+    ]
+  },
+  "${modID}:WorldbreakingTaurosRelic": {
+    "NAME": "世界金牛座",
+    "FLAVOR": "作为世界支柱，四形兽之牛踏响巨蹄，迎接新的秩序。",
+    "DESCRIPTIONS": [
+      "你的回合结束时，#y充能球 同时触发其 #y被动 与 #y激发 效果 #b（但不 #b激发）。每当你获得 #y格挡 时，获得量提高 #b10%（至少额外1点）。"
+    ]
+  },
+  "${modID}:WorldvexingAngelosRelic": {
+    "NAME": "世界天使报喜",
+    "FLAVOR": "作为世界支柱，四形兽之无面者振动闪耀白翼，迎接新的秩序。",
+    "DESCRIPTIONS": [
+      "处于 #y平静 #y姿态 时，你的攻击造成双倍伤害，同时受到的攻击伤害也翻倍。每当你退出 #y愤怒 #y姿态 时，获得 #b2 点 #y能量。每当你获得 #y格挡 时，获得量提高 #b10%（至少额外1点）。"
+    ]
+  },
+  "${modID}:OdiousDemonspear": {
+    "NAME": "魔枪",
+    "FLAVOR": "不祥三叉■之■，寄宿着由愚妄助长的狂■热忱。",
+    "DESCRIPTIONS": [
+      "你的攻击造成的伤害提高 #b",
+      "%。",
+      " 每当你将失去生命时，额外失去 #b",
+      " 点。在 #y休息 #y处 进行驱邪可移除此生命损失。"
+    ]
+  },
+  "${modID}:OdiousTerrorbow": {
+    "NAME": "恐惧弓",
+    "FLAVOR": "为传播这份完■而落下的一滴化作箭矢，坠落并渗■整个世界。",
+    "DESCRIPTIONS": [
+      "每当你获得格挡时，额外获得 #b",
+      " 点。若你的生命低于 #b50%，此额外格挡翻倍。",
+      " 你的能力牌费用增加 #b",
+      " 点能量。在 #y休息 #y处 进行驱邪可移除此费用增加。"
+    ]
+  },
+  "${modID}:OdiousSealhammer": {
+    "NAME": "封印锤",
+    "FLAVOR": "破裂巨碑之中残留着自■颂扬所带来的无■狂喜。",
+    "DESCRIPTIONS": [
+      "费用为1或更低的攻击额外造成 #b",
+      " 点伤害。",
+      " 你的0费攻击额外消耗1点能量。在 #y休息 #y处 进行驱邪可移除此费用增加。"
+    ]
+  },
+  "${modID}:OdiousDemonedge": {
+    "NAME": "魔刃",
+    "FLAVOR": "揭■真相的刀刃闪耀腐化之光，披覆辉■污秽。",
+    "DESCRIPTIONS": [
+      "每回合开始时抽 #b",
+      " 张牌。",
+      " 每回合开始时失去 ",
+      " 点能量。在 #y休息 #y处 进行驱邪可移除此能量损失。"
+    ]
+  },
+  "${modID}:OdiousBlightrifle": {
+    "NAME": "灾厄步枪",
+    "FLAVOR": "于黑■中射■的子弹化作光■，成为我们的指■。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b",
+      " 点力量和集中，但失去 #b",
+      " 点敏捷。在 #y休息 #y处 进行驱邪后，改为获得敏捷。",
+      " 点力量、集中和敏捷。"
+    ]
+  },
+  "${modID}:OdiousCodex": {
+    "NAME": "禁忌圣典",
+    "FLAVOR": "被圣■所迷惑者终将失■自我。",
+    "DESCRIPTIONS": [
+      "你的攻击根据生命百分比有多 #y低 而造成更多伤害（最高 #b",
+      "%，生命为 #b1 时达到最高）。在 #y休息 #y处 进行驱邪可将 #y低 改为 #y高。",
+      "你的攻击根据生命百分比有多 #y高 而造成更多伤害（最高 #b",
+      "%，生命为 #b100% 时达到最高）。在 #y休息 #y处 进行驱邪可将 #y高 改为 #y低。"
+    ]
+  },
+  "${modID}:ScalesOfDominionRelic": {
+    "NAME": "统御天平",
+    "FLAVOR": "繁荣还是贫困？秩序还是混沌？阴还是阳？生还是死？",
+    "DESCRIPTIONS": [
+      "战斗开始时，若完整牌组中的所有 #y非初始 卡牌均不重复，获得 #b",
+      " 点力量。"
+    ]
+  },
+  "${modID}:StarsTreadsRelic": {
+    "NAME": "星之足迹",
+    "FLAVOR": "撕开通往遥远战争的黑暗道路。",
+    "DESCRIPTIONS": [
+      "每当你失去生命时，获得 #b1 点 #y荆棘。"
+    ]
+  },
+  "${modID}:RubeaStiriaRelic": {
+    "NAME": "鲁比乌斯·斯蒂利亚",
+    "FLAVOR": "……重复发动的概率极高。",
+    "DESCRIPTIONS": [
+      "当你的 #y能量 为0时，每当你打出一张X费牌，获得 #b1 点 #y能量。"
+    ]
+  },
+  "${modID}:MeteorsLight": {
+    "NAME": "流星之光",
+    "FLAVOR": "以一种身份不明、仅被称为“异客石”的矿石打造的枪械。",
+    "DESCRIPTIONS": [
+      "拾取时，获得1个不属于你当前角色的随机初始遗物。"
+    ]
+  },
+  "${modID}:TiensPortrait": {
+    "NAME": "Tien的肖像",
+    "FLAVOR": "十天众之一——他们屹立于天空之上，阻挡一切可能降临的灾厄。",
+    "DESCRIPTIONS": [
+      "每当你击杀一个敌人时，获得相当于当前 #y金币 10%的金币。"
+    ]
+  }
+}

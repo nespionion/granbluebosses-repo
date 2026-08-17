@@ -1,0 +1,115 @@
+{
+  "${modID}:Example": {
+    "TEXT": [
+      "这是",
+      "一个字符串数组。"
+    ],
+    "EXTRA_TEXT": [
+      "这是另一个",
+      "字符串数组。"
+    ],
+    "TEXT_DICT": {
+      "This": "包含成对的字符串，用于根据键获取值。",
+      "This is a key": "这是一个值。"
+    }
+  },
+  "${modID}:your_intent": {
+    "TEXT": [
+      "高质量意图",
+      "该敌人意图 NL 执行与数字 #b",
+      " 和 ",
+      "有关的行动。"
+    ]
+  },
+  "${modID}:InstaKillIntent": {
+    "TEXT": [
+      "致命",
+      "该敌人意图杀死你！"
+    ]
+  },
+  "${modID}:MagicDamageIntent": {
+    "TEXT": [
+      "攻击性魔法",
+      "该敌人意图 NL 造成 #b",
+      " 点 #y魔法 伤害。",
+      " 点 #y魔法 伤害，共 #b",
+      " 次。"
+    ]
+  },
+  "${modID}:AttackPlusMagicIntent": {
+    "TEXT": [
+      "攻击性魔法",
+      "该敌人意图 NL 造成 ",
+      " 点伤害 ",
+      " 次，",
+      "并对你施加某种效果（不是减益）。",
+      "该敌人意图 NL 造成伤害并对你施加某种效果（不是减益）。"
+    ]
+  },
+  "${modID}:SetHealthIntent": {
+    "TEXT": [
+      "生命改变",
+      "该敌人意图 NL 直接改变你的生命。",
+      "该敌人意图 NL 将你的生命设为 #b",
+      "。"
+    ]
+  },
+  "${modID}:UnblockableDamageIntent": {
+    "TEXT": [
+      "破坏性",
+      "该敌人意图 NL 降低你的生命。",
+      "该敌人意图 NL 使你的生命降低 #b",
+      "。",
+      "该敌人意图 NL 使你的生命降低 #b",
+      " 次，每次降低 #b",
+      "。"
+    ]
+  },
+  "${modID}:LinkedRewardItem": {
+    "TEXT": [
+      "关联的卡牌奖励"
+    ]
+  },
+  "${modID}:Act1Skies": {
+    "TEXT": [
+      "天空群岛",
+      "第一幕",
+      "#b你 #b感到 #b一阵 #b出乎意料地 #b舒适的 #b微风 #b从 #b墙上的 #b裂缝中 #b吹来。#b透过 #b裂缝，#b你 #b只看见 #b一片 #b蓝色 #b光芒。",
+      "#b穿过 #b墙上 #b发光的 #b裂缝。",
+      "进入墙上发光的裂缝。",
+      "一片漂浮群岛，元素星晶兽栖息于此。"
+    ]
+  },
+  "${modID}:ConfigMenu": {
+    "TEXT_DICT": {
+      "enableDMCAMusic": "启用原作OST中的DMCA音乐。",
+      "modestyFilter": "启用经过审查的美术。警告：图像修改质量较低。需要重新启动。",
+      "enableDebug": "启用调试功能和仍在开发中的内容。不建议正常游玩时使用。需要重新启动。",
+      "enableExtraRewards": "在特定战斗后启用额外奖励。注意：本模组的平衡设计已将这些奖励考虑在内。",
+      "easyUnlockFullArt": "在下一次游戏结束后解锁所有Arcarum卡牌奖励的全画幅版本。",
+      "enableStartOfActEvents": "在每一幕开始时启用自定义事件。注意：本模组的平衡设计已将这些事件考虑在内。需要重新启动。"
+    }
+  },
+  "${modID}:Act2Arcarum": {
+    "TEXT": [
+      "秘术：彼方世界",
+      "第二幕",
+      "#b你 #b看见 #b一座 #b宁静的 #b城市，#b坐落在 #b漂浮于 #b天空中的 #b岛屿 #b之上。#b尽管 #b他们 #b居住的 #b地形 #b非同寻常，#b你 #b仍能 #b辨认出 #b多个 #b不同的 #b类人 #b种族。",
+      "#b追随 #b命运的 #b丝线。",
+      "进入浮空岛上的城市。",
+      "因果的守护者从永恒沉眠中苏醒，欲毁灭并重塑世界。"
+    ]
+  },
+  "${modID}:CampfireOdiousRelicExorcismOption": {
+    "TEXT": [
+      "恶秽驱邪",
+      "移除你所有恶秽遗物上的诅咒。"
+    ]
+  },
+  "${modID}:CampfireRelicExorcismOption": {
+    "TEXT": [
+      "恶秽驱邪",
+      "移除你所有恶秽遗物上的诅咒。"
+    ]
+  }
+}

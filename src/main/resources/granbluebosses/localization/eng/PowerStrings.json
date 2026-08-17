@@ -1,0 +1,420 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:RagnarokField": {
+    "NAME": "Ragnarok Field",
+    "DESCRIPTIONS": [
+      "Take ",
+      " damage at the end of the turn."
+    ]
+  },
+  "${modID}:OverdriveState": {
+    "NAME": "Overdrive (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature's attacks are more powerful. Deal ",
+      " damage to stun it.",
+      " damage to stun it."
+    ]
+  },
+  "${modID}:StandbyState": {
+    "NAME": "Standby (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature is calm. It will become more aggressive if it takes ",
+      " more damage.",
+      " more damage."
+    ]
+  },
+  "${modID}:FieldOfMediation": {
+    "NAME": "Field Of Mediation",
+    "DESCRIPTIONS": [
+      "When applied, gain #b1 #yStrength, #yDexterity, and #yFocus for every card color in your deck aside from your own."
+    ]
+  },
+  "${modID}:WormholePower": {
+    "NAME": "Wormhole (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature changes intent if it receives ",
+      " more damage."
+    ]
+  },
+  "${modID}:EbbTidePower": {
+    "NAME": "Ebb Tide (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature changes intent if you play a Power."
+    ]
+  },
+  "${modID}:PathOfDestruction": {
+    "NAME": "Path Of Destruction",
+    "DESCRIPTIONS": [
+      "The next attack will be greatly empowered."
+    ]
+  },
+  "${modID}:MirrorBlade5": {
+    "NAME": "Mirror Blade",
+    "DESCRIPTIONS": [
+      "Deals #b5 damage to the player at the end of turn."
+    ]
+  },
+  "${modID}:MirrorBlade2": {
+    "NAME": "Mirror Blade",
+    "DESCRIPTIONS": [
+      "Deals #b2 damage to the player at the end of turn."
+    ]
+  },
+  "${modID}:Marked": {
+    "NAME": "Marked",
+    "DESCRIPTIONS": [
+      "The enemy is preparing to strike this creature with a powerful attack."
+    ]
+  },
+  "${modID}:IncantedOmen": {
+    "NAME": "Omen",
+    "DESCRIPTIONS": [
+      "This enemy is preparing a powerful attack. Fulfil certain conditions to cancel it."
+    ]
+  },
+  "${modID}:StanceOmen": {
+    "NAME": "Omen",
+    "DESCRIPTIONS": [
+      "This enemy will prepare a powerful attack under certain conditions unless it is stunned."
+    ]
+  },
+  "${modID}:BlueCrystalPower": {
+    "NAME": "Blue Crystal",
+    "DESCRIPTIONS": [
+      "The next time you gain #yStrength, #yDexterity, #yFocus, or #yMantra gain 1 more."
+    ]
+  },
+  "${modID}:DebuffOnHit": {
+    "NAME": "Debuff On Hit (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "Whenever this creature deals unblocked damage, it inflicts "
+    ]
+  },
+  "${modID}:PiercingPower": {
+    "NAME": "Piercing (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature will ignore #yBlock and #yPowers that modify attack damage when attacking."
+    ]
+  },
+  "${modID}:ConjunctionPower": {
+    "NAME": "Conjunction (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "This creature's HP will become 1 at start of turn."
+    ]
+  },
+  "${modID}:CelesteEnmity": {
+    "NAME": "Celeste's Enmity",
+    "DESCRIPTIONS": [
+      "When you play an #yAttack, deal #b1 damage to a random enemy. Deal #b1 extra damage when you are under 20% HP, under 10% HP, and at #b1 HP."
+    ]
+  },
+  "${modID}:PhalanxPower": {
+    "NAME": "Phalanx",
+    "DESCRIPTIONS": [
+      "Reduce blockable damage taken by #b",
+      "% until the start of next turn."
+    ]
+  },
+  "${modID}:IncantedOmenCardPlayed": {
+    "NAME": "Incanted #yOmen",
+    "DESCRIPTIONS": [
+      "This enemy's intent will change when you play cards.",
+      "This enemy's intent will change when you play ",
+      "."
+    ]
+  },
+  "${modID}:CrippleDraw": {
+    "NAME": "Restricted: ",
+    "DESCRIPTIONS": [
+      "Whenever you draw a ",
+      " card this turn, discard it",
+      ".",
+      " and replace it with a "
+    ]
+  },
+  "${modID}:IncantedOmenPowersApplied": {
+    "NAME": "Incanted #yOmen",
+    "DESCRIPTIONS": [
+      "This enemy's intent will change after powers are applied to it.",
+      "This enemy's intent will change after ",
+      " are applied to it."
+    ]
+  },
+  "${modID}:IncantedOmenHits": {
+    "NAME": "Incanted #yOmen",
+    "DESCRIPTIONS": [
+      "This enemy's intent will change after receiving enough hits.",
+      "This enemy's intent will change after it "
+    ]
+  },
+  "${modID}:IncantedOmenDamage": {
+    "NAME": "Incanted #yOmen",
+    "DESCRIPTIONS": [
+      "This enemy's intent will change after receiving enough damage.",
+      "This enemy's intent will change after it "
+    ]
+  },
+  "${modID}:JudgementTrumpet": {
+    "NAME": "Trumpet of Sentencing (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "When attacked, gain #b",
+      " #yStrength (max #b4)."
+    ]
+  },
+  "${modID}:UnrighteousnessPower": {
+    "NAME": "Unrighteousness",
+    "DESCRIPTIONS": [
+      "This creature has been revealed to be a sinner. It will lose half of its HP as punishment at the end of the round."
+    ]
+  },
+  "${modID}:LovesRedemption": {
+    "NAME": "Love's Redemption",
+    "DESCRIPTIONS": [
+      "Reduce #yAttack damage received by 50% while you have over 50% HP. Reduces by 2 at the end of each round. Reduces by 1 when you play a card."
+    ]
+  },
+  "${modID}:DoubleStrike": {
+    "NAME": "Double Strike",
+    "DESCRIPTIONS": [
+      "Attacks are played twice."
+    ]
+  },
+  "${modID}:ImpregnableFortress": {
+    "NAME": "Impregnable Fortress",
+    "DESCRIPTIONS": [
+      "Your HP cannot go bellow #b1."
+    ]
+  },
+  "${modID}:SentencedTrumpet": {
+    "NAME": "Sentenced",
+    "DESCRIPTIONS": [
+      "In ",
+      " turn, ",
+      " turns, ",
+      "Exhaust the first ",
+      " cards you draw that turn.",
+      "card you draw that turn."
+    ]
+  },
+  "${modID}:ATKDown": {
+    "NAME": "Attack Down",
+    "DESCRIPTIONS": [
+      "This creature's #yAttacks deal #b",
+      "% more damage"
+    ]
+  },
+  "${modID}:DEFDown": {
+    "NAME": "Defense Down",
+    "DESCRIPTIONS": [
+      "This creature takes #b",
+      "% more damage from #yAttacks"
+    ]
+  },
+  "${modID}:ThunderboltOfDisaster": {
+    "NAME": "Thunderbolt Of Disaster",
+    "DESCRIPTIONS": [
+      "Whenever you play an #yAttack, if the #yAttack targets an enemy, deal #b",
+      " damage to a random target. If the #yAttack targets ALL enemies, deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "${modID}:MoonCrescent": {
+    "NAME": "Crescent Moon",
+    "DESCRIPTIONS": [
+      "Your #yAttacks deal 1 more damage. Increases at the end of your turn."
+    ]
+  },
+  "${modID}:MoonQuarter": {
+    "NAME": "Quarter Moon",
+    "DESCRIPTIONS": [
+      "Your #yAttacks deal 2 more damage. Increases at the start of your next turn."
+    ]
+  },
+  "${modID}:MoonFull": {
+    "NAME": "Full Moon",
+    "DESCRIPTIONS": [
+      "Your #yAttacks deal 3 more damage this round."
+    ]
+  },
+  "${modID}:DEFUp": {
+    "NAME": "Defense Up",
+    "DESCRIPTIONS": [
+      "This creature takes #b",
+      " less damage from #yAttacks"
+    ]
+  },
+  "${modID}:TheEmeraldsWindfallPower": {
+    "NAME": "The Emerald's Windfall",
+    "DESCRIPTIONS": [
+      "The first card played this turn is played #b",
+      " additional time at the end of the turn."
+    ]
+  },
+  "${modID}:TheGoldsFoundationPower": {
+    "NAME": "The Gold's Foundation",
+    "DESCRIPTIONS": [
+      "If you end your turn without playing any Attacks, gain #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:TheWhitesLightfieldPower": {
+    "NAME": "The White's Lightfield",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yBlock and ALL enemies heal 1 HP."
+    ]
+  },
+  "${modID}:TheBlacksEncroachmentPower": {
+    "NAME": "The Gold's Foundation",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " less damage from Attacks. NL At the end of your turn, lose 1 HP."
+    ]
+  },
+  "${modID}:DeathSentencePower": {
+    "NAME": "Death Sentence",
+    "DESCRIPTIONS": [
+      "Lowers at end of turn or when a card is played. This creature will die at #b0."
+    ]
+  },
+  "${modID}:DoomFirePower": {
+    "NAME": "Doomfire",
+    "DESCRIPTIONS": [
+      "Exhaust #b",
+      " card from the top of your draw pile at the start of your turn (post-draw). Increases #yOmen requirements for #yVarrazunalaqu. NL Lowers by #b1 on #yOmen cancel.",
+      "While at 1 stack or higher: "
+    ]
+  },
+  "${modID}:CASealedPower": {
+    "NAME": "Rare Cards Sealed",
+    "DESCRIPTIONS": [
+      "You cannot play Rare cards for the next ",
+      "turns."
+    ]
+  },
+  "${modID}:UnsealingPower": {
+    "NAME": "Unsealing (Max 5)",
+    "DESCRIPTIONS": [
+      "You cannot play more than #b",
+      " cards each turn. Lowers by #b1 on #yOmen cancel.",
+      "While at 1 stack or higher: Limits the amount of cards you cna play. Lowers by 1 on #yOmen cancel."
+    ]
+  },
+  "${modID}:GoldenCorruptionPower": {
+    "NAME": "Golden Corruption (Max 5)",
+    "DESCRIPTIONS": [
+      "Reduces damage dealt by #b",
+      ". Lowers by #b1 on #yOmen cancel."
+    ]
+  },
+  "${modID}:GildedHeavenPower": {
+    "NAME": "Gilded Haven (Max 10)",
+    "DESCRIPTIONS": [
+      "Increases by #b3 at the end of round. Lowers by #b1 whenever this creature takes damage. When it lowers to 0 while no #yOmen is active Narophirmidas is stunned."
+    ]
+  },
+  "${modID}:TorrentOfLifePower": {
+    "NAME": "Torrent of Life",
+    "DESCRIPTIONS": [
+      "Nihuyvintae's Annraeternia attack will Instakill. Removed on #yOmen cancel."
+    ]
+  },
+  "${modID}:UniversalUpwellingPower": {
+    "NAME": "Universal Upwelling",
+    "DESCRIPTIONS": [
+      "At the end of the turn transform #b1 stack into a random buff. On #yOmen cancel, lowers by #b1 and removes #b1 buff from this creature."
+    ]
+  },
+  "${modID}:MechanizationPower": {
+    "NAME": "Mechanization (Max 5)",
+    "DESCRIPTIONS": [
+      "Whenever you would take damage, increase it by #b",
+      ". Lowers by 1 on #yOmen cancel."
+    ]
+  },
+  "${modID}:ObservationPower": {
+    "NAME": "Observation (Max 5)",
+    "DESCRIPTIONS": [
+      "At start of turn, add #b",
+      " Dazed to your hand."
+    ]
+  },
+  "${modID}:DerangedPower": {
+    "NAME": "Deranged",
+    "DESCRIPTIONS": [
+      "Whenever you draw a card this turn, randomize its cost.",
+      "For the next ",
+      " turns, whenever you draw a card, randomize its cost."
+    ]
+  },
+  "${modID}:DemonolatryPagesPower": {
+    "NAME": "Demonolatry Pages (Max 5. Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "Increases by #b1 whenever you play a card. Resets to #b1 at end of turn and on #yOmen cancel."
+    ]
+  },
+  "${modID}:ColossalBodyPower": {
+    "NAME": "Colossal Body",
+    "DESCRIPTIONS": [
+      "Takes #b100% more damage from cards that target #rEVERYONE. Takes #b50% more damage from cards that target #yALL enemies."
+    ]
+  },
+  "${modID}:AkashaTimeWarpPower": {
+    "NAME": "Time Distortion (Cannot be Cleansed)",
+    "DESCRIPTIONS": [
+      "The #bStart #bof #bTurn and #bEnd #bof #bTurn effects of #yPowers and #yRelics trigger #b",
+      " additional time (#yRelics only trigger in your turns).",
+      " additional times (#yRelics only trigger in your turns).",
+      "The #bStart #bof #bTurn and #bEnd #bof #bTurn effects of #yPowers and #yRelics trigger multiple additional times."
+    ]
+  },
+  "${modID}:AkashaTimeWarpPowerBak": {
+    "NAME": "Time Distortion (Cannot be Cleansed)",
+    "DESCRIPTIONS": [
+      "When you end your turn, ",
+      " additional turn passes.",
+      " additional turns pass.",
+      "When you end your turn, additional turns may pass."
+    ]
+  },
+  "${modID}:AkashaKarmaPower": {
+    "NAME": "Karma",
+    "DESCRIPTIONS": [
+      "Akasha is preparing a powerful attack! Play ",
+      " Attack to stop it.",
+      " Attacks to stop it."
+    ]
+  },
+  "${modID}:TheWorldSpherePower": {
+    "NAME": "Projected World (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "When attacked, deals ",
+      " damage back. At the end of turn, transform 1 stack into Strength."
+    ]
+  },
+  "${modID}:TheWorldTerminalPower": {
+    "NAME": "Terminal World (Cannot be Dispelled)",
+    "DESCRIPTIONS": [
+      "Increases the number of hits of Mebicomet by #b",
+      ". NL Lowers by #b1 on #yOmen cancel."
+    ]
+  },
+  "${modID}:GbfDOTPower": {
+    "NAME": "Deterioration",
+    "DESCRIPTIONS": [
+      "This creature loses #b",
+      " HP at the end of each turn."
+    ]
+  },
+  "${modID}:TrancePower": {
+    "NAME": "Trance (Cannot be Dispelled, Max. 3)",
+    "DESCRIPTIONS": [
+      "When at #b3, your #yAttacks deal #b3 additional damage."
+    ]
+  }
+}

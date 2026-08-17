@@ -1,0 +1,99 @@
+package granbluebosses.relics.ancients;
+
+import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
+import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+import granbluebosses.cards.wedges.WedgesOfTheSky;
+import granbluebosses.cards.wedges.optionCards.*;
+import granbluebosses.config.ConfigMenu;
+import granbluebosses.relics.BaseRelic;
+import granbluebosses.util.primalcards.PrimalColor;
+
+import java.util.Arrays;
+
+import static granbluebosses.GranblueBosses.makeID;
+
+public class OppressusFragorRelic extends BaseRelic implements ClickableRelic {
+    public static final String NAME = OppressusFragorRelic.class.getSimpleName(); //The name will be used for determining the image file as well as the ID.
+    public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
+    private static final RelicTier RARITY = RelicTier.SPECIAL; //The relic's rarity.
+    private static final LandingSound SOUND = LandingSound.MAGICAL; //The sound played when the relic is clicked.
+    public CardGroup wedgesUpgrades = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
+
+    public OppressusFragorRelic() {
+        super(ID, NAME, null, // PrimalColor.GBF_PRIMAL_COLOR,
+                RARITY, SOUND);
+
+        wedgesUpgrades.addToBottom(new UpgradeWedgesWilnas());
+        wedgesUpgrades.addToBottom(new UpgradeWedgesGalleon());
+        wedgesUpgrades.addToBottom(new UpgradeWedgesWamdus());
+        wedgesUpgrades.addToBottom(new UpgradeWedgesEwiyar());
+        wedgesUpgrades.addToBottom(new UpgradeWedgesFediel());
+        wedgesUpgrades.addToBottom(new UpgradeWedgesLuWoh());
+    }
+
+    @Override
+    public void onEquip() {
+        super.onEquip();
+        AbstractCard wedges = AbstractDungeon.player.masterDeck.findCardById(WedgesOfTheSky.ID);
+        if (wedges == null){
+            wedges = new WedgesOfTheSky();
+            AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(wedges, (float) Settings.WIDTH / 2.0F, (float)Settings.HEIGHT / 2.0F));
+        }
+
+        for (AbstractCard c : this.wedgesUpgrades.group){
+            c.cardsToPreview = wedges;
+        }
+    }
+
+    @Override
+    public void atBattleStart() {
+        super.atBattleStart();
+        AbstractCard wedges = AbstractDungeon.player.masterDeck.findCardById(WedgesOfTheSky.ID);
+        if (wedges == null){
+            wedges = new WedgesOfTheSky();
+            AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(wedges, (float) Settings.WIDTH / 2.0F, (float)Settings.HEIGHT / 2.0F));
+        }
+    }
+
+    public void upgradeWedges(){
+        WedgesOfTheSky wedges = (WedgesOfTheSky) AbstractDungeon.player.masterDeck.findCardById(WedgesOfTheSky.ID);
+
+        if (wedges != null){
+            this.addToTop(new ChooseOneAction(this.wedgesUpgrades.group));
+        }
+    }
+
+    @Override
+    public void onRightClick() {
+        if (ConfigMenu.enableDebug){
+            this.upgradeWedges();
+        }
+    }
+
+    public static void uncapWedges(){
+        WedgesOfTheSky wedges = (WedgesOfTheSky) AbstractDungeon.player.masterDeck.findCardById(WedgesOfTheSky.ID);
+
+        if (wedges != null && wedges.upgraded && wedges.actionsOnUse.containsAll(Arrays.asList(
+                WedgesOfTheSky.ACTIONS_ENUM.ATTACK,
+                WedgesOfTheSky.ACTIONS_ENUM.DEFEND,
+                WedgesOfTheSky.ACTIONS_ENUM.BUFF_STRENGTH,
+                WedgesOfTheSky.ACTIONS_ENUM.BUFF_DEXTERITY,
+                WedgesOfTheSky.ACTIONS_ENUM.DEBUFF_WEAK,
+                WedgesOfTheSky.ACTIONS_ENUM.DEBUFF_VULNERABLE,
+                WedgesOfTheSky.ACTIONS_ENUM.DRAW
+        ))){
+            wedges.uncap();
+        }
+    }
+
+    @Override
+    public String getUpdatedDescription() {
+        return DESCRIPTIONS[0];
+    }
+
+}

@@ -1,0 +1,295 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:DaggerOfBahamut": {
+    "NAME": "Dagger Of Bahamut",
+    "DESCRIPTION": "Forge the Dagger Of Bahamut. NL (+1 Dexterity at battle start)",
+    "UPGRADE_DESCRIPTION": "Forge the Dagger Of Bahamut Coda. NL (+2 Dexterity at battle start and +4 Max HP)"
+  },
+  "${modID}:SwordOfBahamut": {
+    "NAME": "Sword Of Bahamut",
+    "DESCRIPTION": "Forge the Sword Of Bahamut. NL (+1 Strength at battle start)",
+    "UPGRADE_DESCRIPTION": "Forge the Sword Of Bahamut Coda. NL (+2 Strength at battle start and +4 Max HP)"
+  },
+  "${modID}:StaffOfBahamut": {
+    "NAME": "Staff Of Bahamut",
+    "DESCRIPTION": "Forge the Staff Of Bahamut. NL (+1 Focus at battle start)",
+    "UPGRADE_DESCRIPTION": "Forge the Staff Of Bahamut Coda. NL (+2 Focus at battle start and +4 Max HP)"
+  },
+  "${modID}:HarpOfBahamut": {
+    "NAME": "Harp Of Bahamut",
+    "DESCRIPTION": "Forge the Harp Of Bahamut. NL (Get Miracle at battle start)",
+    "UPGRADE_DESCRIPTION": "Forge the Harp Of Bahamut Coda. NL (Get Miracle+ at battle start and +4 Max HP)"
+  },
+  "${modID}:TiamatOmega": {
+    "NAME": "Tiamat's Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Weak to ALL enemies."
+  },
+  "${modID}:ColossusOmega": {
+    "NAME": "Colossus' Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Gain !B! Block."
+  },
+  "${modID}:LeviathanOmega": {
+    "NAME": "Leviathan's Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:YggdrasilOmega": {
+    "NAME": "Yggdrasil's Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Randomly do 1, repeat !M! times: NL 1) Gain 1 Temporary Strength NL 2) Gain 1 Temporary Dexterity."
+  },
+  "${modID}:LuminieraOmega": {
+    "NAME": "Luminiera's Call",
+    "DESCRIPTION": "Deal !D! damage. NL If target has 1 or more Strength and/or Dexterity, remove it."
+  },
+  "${modID}:CelesteOmega": {
+    "NAME": "Celeste's Call",
+    "DESCRIPTION": "Remove target's Block. NL Deal of it half as damage. NL ",
+    "EXTENDED_DESCRIPTION": [
+      "(Deals !D! damage)"
+    ]
+  },
+  "${modID}:ShivaCall": {
+    "NAME": "Shiva's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Grain !M! Vigor. NL Exhaust"
+  },
+  "${modID}:EuropaCall": {
+    "NAME": "Europa's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Heal !M! HP. NL Exhaust"
+  },
+  "${modID}:AlexielCall": {
+    "NAME": "Alexiel's Call",
+    "DESCRIPTION": "Gain !M! Intangible. NL Gain !B! Block. NL Exhaust"
+  },
+  "${modID}:GrimnirCall": {
+    "NAME": "Grimnir's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Exhaust"
+  },
+  "${modID}:AthenaCall": {
+    "NAME": "Athena's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Reduce damage taken by !M! percent this turn. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Reduce damage taken by !M! percent this turn."
+  },
+  "${modID}:GraniCall": {
+    "NAME": "Grani's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Target loses !M! Temporary Strength.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Target loses !M! Strength. NL Exhaust"
+  },
+  "${modID}:BaalCall": {
+    "NAME": "Baal's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Gain by !M! Artifact. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain by !M! Artifact."
+  },
+  "${modID}:GarudaCall": {
+    "NAME": "Garuda's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Temporary Dexterity.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !M! Dexterity. NL Exhaust"
+  },
+  "${modID}:WedgesOfTheSky": {
+    "NAME": "Wedges of the Sky",
+    "DESCRIPTION": "Unplayable. Cannot be removed from your deck. ",
+    "EXTENDED_DESCRIPTION": [
+      "NL Deal !D! damage to ALL enemies.",
+      "NL Gain !B! Block.",
+      "NL Gain !M! Strength, Dexterity, and Focus.",
+      "NL Gain !M! Strength and Focus.",
+      "NL Gain !M! Dexterity.",
+      "NL Apply !M! Weak and Vulnerable to ALL enemies.",
+      "NL Apply !M! Weak to ALL enemies.",
+      "NL Apply !M! Vulnerable to ALL enemies.",
+      "NL Draw !M! card.",
+      "NL Draw !M! cards."
+    ]
+  },
+  "${modID}:UpgradeWedgesWilnas": {
+    "NAME": "Wilnas' Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Deal !D! damage to ALL enemies.\""
+  },
+  "${modID}:UpgradeWedgesWamdus": {
+    "NAME": "Wamdus' Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Draw !M! card.\""
+  },
+  "${modID}:UpgradeWedgesEwiyar": {
+    "NAME": "Ewiyar's Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Gain !M! Dexterity.\""
+  },
+  "${modID}:UpgradeWedgesGalleon": {
+    "NAME": "Galleon's Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Gain !B! Block.\""
+  },
+  "${modID}:UpgradeWedgesLuWoh": {
+    "NAME": "Lu Woh's Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Gain !B! Strength and Focus.\""
+  },
+  "${modID}:UpgradeWedgesFediel": {
+    "NAME": "Fediel's Pigment",
+    "DESCRIPTION": "*Wedges *of *the *Sky permanently gains NL \"When drawn: Apply !M! Weak and Vulnerable to ALL enemies.\""
+  },
+  "${modID}:JusticeTransferPower": {
+    "NAME": "Suffer Repentance",
+    "DESCRIPTION": "Retain NL Take !D! damage. NL Transfer any ${modID}:Unrighteousness on you to the target. NL Exhaust"
+  },
+  "${modID}:TheAzuresHalo": {
+    "NAME": "The Azure's Halo",
+    "DESCRIPTION": "Gain !M! Dexterity. NL Gain !M! Artifact. NL Reduce blockable damage taken by 100% this turn."
+  },
+  "${modID}:TheVermillionsGlare": {
+    "NAME": "The Vermillion's Glare",
+    "DESCRIPTION": "Your Attacks deal double damage this turn. NL Gain !M! Artifact."
+  },
+  "${modID}:TheEmeraldsWindfall": {
+    "NAME": "The Emerald's Windfall",
+    "DESCRIPTION": "The first card played each turn is played again at the end of the turn."
+  },
+  "${modID}:TheGoldsFoundation": {
+    "NAME": "The Gold's Foundation",
+    "DESCRIPTION": "Gain !M! Artifact. NL If you end your turn without playing any Attacks, gain !M! Strength."
+  },
+  "${modID}:TheWhitesLightfield": {
+    "NAME": "The White's Lightfield",
+    "DESCRIPTION": "At the end of your turn, gain !M! Block and ALL enemies heal 1 HP."
+  },
+  "${modID}:TheBlacksEncroachment": {
+    "NAME": "The Black's Encroachment",
+    "DESCRIPTION": "Take !M! less damage from Attacks. NL At the end of your turn, lose 1 HP."
+  },
+  "${modID}:ArcarumJusticeCard": {
+    "NAME": "Justice",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Balance target's Block and your Block.",
+    "UPGRADE_DESCRIPTION": "${modID}:Arcarum_Card NL Balance target's Block and your Block. NL Deal !D! damage."
+  },
+  "${modID}:ArcarumHangedManCard": {
+    "NAME": "The Hanged Man",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Deal !D! damage. NL Remove 1 debuff from you. NL Randomly gain 1 Temporary Strength or 1 Temporary Dexterity.",
+    "UPGRADE_DESCRIPTION": "${modID}:Arcarum_Card NL Deal !D! damage. NL Remove 1 debuff from you. NL Gain 1 Temporary Strength or 1 Temporary Dexterity."
+  },
+  "${modID}:ArcarumDeathCard": {
+    "NAME": "Death",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Exhaust random cards in your hand until you have !M! cards left. NL Exhaust 1 card minimum. NL All cards remaining cost 0 this turn. NL Exhaust"
+  },
+  "${modID}:ArcarumTemperanceCard": {
+    "NAME": "Temperance",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Deal !D! damage. NL Damage increases the closer your HP is to 50%."
+  },
+  "${modID}:ArcarumDevilCard": {
+    "NAME": "The Devil",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Deal !D! damage. NL The target takes !M!% more damage from Attacks this turn and the target's Attacks deal !M!% less damage this turn."
+  },
+  "${modID}:ArcarumTowerCard": {
+    "NAME": "The Tower",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Whenever you play an Attack, if the Attack targets an enemy, deal !M! damage to a random target. If the Attack targets ALL enemies, deal !M! damage to ALL enemies."
+  },
+  "${modID}:ArcarumStarsCard": {
+    "NAME": "The Star",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL For the next !M! turns, your HP cannot go bellow 1."
+  },
+  "${modID}:ArcarumMoonCard": {
+    "NAME": "The Moon",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Deal !D! damage. NL For the next 3 turns, your Attacks deal 1 additional damage, then 2, then 3."
+  },
+  "${modID}:ArcarumSunCard": {
+    "NAME": "The Sun",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Attacks you play this turn are played twice."
+  },
+  "${modID}:ArcarumJudgementCard": {
+    "NAME": "Judgement",
+    "DESCRIPTION": "${modID}:Arcarum_Card NL Put a card from your Exhaust pile into your hand. NL In 2 turns, Exhaust the first !M! cards you draw that turn. NL Exhaust"
+  },
+  "${modID}:InchoateWorldCard": {
+    "NAME": "Inchoate World",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL ALL enemies lose !M! HP.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL ALL enemies lose !M! HP. NL Upgrade all ${modID}:Arcarum_cards."
+  },
+  "${modID}:OdiousBelmervolkCard": {
+    "NAME": "Belmervolk's Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL Apply !M! Weak to ALL enemies."
+  },
+  "${modID}:OdiousMacutanmacarCard": {
+    "NAME": "Macutanmacar's Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:OdiousNarophirmidasCard": {
+    "NAME": "Narophirmidas' Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL [#cc0000]EVERYONE[] loses !M! buffs."
+  },
+  "${modID}:OdiousNihuyvintaeCard": {
+    "NAME": "Nihuyvintae's Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL ALL enemies will either deal !M!% less damage or take !M!% more damage this round (chosen randomly)."
+  },
+  "${modID}:OdiousPapahlukruvaCard": {
+    "NAME": "Papahlukruva's Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL Remove ALL Artifact on ALL enemies."
+  },
+  "${modID}:OdiousZamalvochCard": {
+    "NAME": "Zamalvoch's Call",
+    "DESCRIPTION": "Deal !D! damage to [#cc0000]EVERYONE[]. NL Gain !B! Block."
+  },
+  "${modID}:PapahlukruvaCurse": {
+    "NAME": "Blind Papahlukruva",
+    "DESCRIPTION": "Retain NL Papahlukruva stops *Observing NL Exhaust"
+  },
+  "${modID}:PrometheusCall": {
+    "NAME": "Prometheus' Call",
+    "DESCRIPTION": "Gain !M! Strength. NL Gain !B! Block."
+  },
+  "${modID}:GilgameshCall": {
+    "NAME": "Gilgamesh's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Play a random *Attack from your draw pile on the same target."
+  },
+  "${modID}:CaOngCall": {
+    "NAME": "Ca Ong's Call",
+    "DESCRIPTION": "Gain 1 Strength. Reduce damage taken by !M! percent this turn."
+  },
+  "${modID}:OdinCall": {
+    "NAME": "Odin's Call",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Do it again if you've played !M! Attacks this turn."
+  },
+  "${modID}:PrayersOfTheMoon": {
+    "NAME": "Moon Prayers",
+    "DESCRIPTION": "${modID}:Astral_Bond NL Add a random Primal's card to your hand. It cost 0 this turn. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "${modID}:Astral_Bond NL Add a random Primal's card to your hand. It cost 0 this turn. NL 50% chance to be hard to obtain card. NL Exhaust"
+  },
+  "${modID}:TiamatAuraOmega": {
+    "NAME": "Tiamat Aura's Call'",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Apply 3 Weak to ALL enemies. NL ALL enemies lose !M! Strength."
+  },
+  "${modID}:ColossusIraOmega": {
+    "NAME": "Colossus Ira's Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Gain !B! Block. NL Reduce damage taken by !M! percent this turn."
+  },
+  "${modID}:LeviathanMareOmega": {
+    "NAME": "Leviathan Mare's Call",
+    "DESCRIPTION": "Remove all Block from ALL enemies. NL Deal !D! damage to all enemies. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:YggdrasilArbosOmega": {
+    "NAME": "Yggdrasil Arbos' Call",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Randomly do 1, repeat !M! times: NL 1) Gain 1 Strength NL 2) Gain 1 Dexterity. NL Exhaust"
+  },
+  "${modID}:LuminieraCredoOmega": {
+    "NAME": "Luminiera Credo's Call",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Dispel 2 *Buffs."
+  },
+  "${modID}:CelesteAterOmega": {
+    "NAME": "Celeste Ater's Call",
+    "DESCRIPTION": "Remove target's Block. NL Apply Poison equal to the amount removed.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:ParadiseLostCard": {
+    "NAME": "Paradise Lost",
+    "DESCRIPTION": "ALL enemies lose 30 HP. NL Remove ALL enemy *Buffs. NL Cancel ALL enemy *Omens."
+  },
+  "${modID}:ChaosLegionCard": {
+    "NAME": "Chaos Legion",
+    "DESCRIPTION": "Retain. While in hand ${modID}:Trance is active. NL Deal !D! damage. Based on ${modID}:Trance NL 1: ${modID}:Dispel 3 *Buffs. | 2: Target loses 30 HP. | 3: Apply !M! Vulnerable."
+  }
+}

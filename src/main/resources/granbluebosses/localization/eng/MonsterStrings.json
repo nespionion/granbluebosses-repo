@@ -1,0 +1,679 @@
+{
+  "${modID}:ProtoBaha": {
+    "MOVES": [
+      "Ragnarok Field",
+      "Skyfall",
+      "Reginleiv",
+      "Arcadia",
+      "Abdak Force",
+      "Supernova",
+      "Reginleiv Recidive",
+      "Arcadia Khloron",
+      "Unchain"
+    ],
+    "NAME": "Proto Bahamut",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:GrandOrder": {
+    "MOVES": [
+      "Spinning Slash",
+      "Bisection",
+      "Prism Halo",
+      "Opposition",
+      "Conjunction",
+      "Ruler of Fate",
+      "Gamma Ray",
+      "The Last Wish",
+      "Outburst",
+      "Field Of Mediation",
+      "Peacemaker's Wings"
+    ],
+    "NAME": "Grand Order",
+    "DIALOG": [
+      "When something which might throw the world off balance rises, I am made manifest!",
+      "Deyaaaa!",
+      "You will perish... Return to the void between sky and stars!",
+      "Seal it away, O kaleidoscopic barrier!",
+      "I grant you the light of destruction...",
+      "Ah... Gah...",
+      "Come forth! The Peacemaker's Wings!",
+      "Here we go! For by my sword which is a mirror reflecting the blue sky, I will sever the sorrow of all creation!",
+      "Sever!",
+      "All things in nature, the dawn of creation! Accept it with your body and turn to ash!",
+      "Now, let us head into the apocalypse together.",
+      "Which of us is nearing the brink of destruction...?",
+      "The flow of the world... is in turmoil...",
+      "Splendid... If it's you, then the world...",
+      "I shall acknowledge it. You people are indeed the enemy of the world.",
+      "All things in creation, falling spark of demise! Become an offering to the neverending blackest night! Gamma Ray!",
+      "Behold the light of countless lives! The Last Wish!",
+      "My azure conviction shall condemn the arrogance of taking the world as your enemy!",
+      "I see... So, you people are... the order of the new world...",
+      "Oh, unwanted beings in the preservation of the starry skies' equilibrium, disappear into the limits of nothingness!",
+      "My azure conviction shall condemn the arrogance of taking the world as your enemy!"
+    ]
+  },
+  "${modID}:Celeste": {
+    "MOVES": [
+      "Tranquil Fog",
+      "Bizarre Fog"
+    ],
+    "NAME": "Celeste",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Celeste2": {
+    "MOVES": [
+      "Tranquil Fog",
+      "Bizarre Fog",
+      "Null Void"
+    ],
+    "NAME": "Celeste",
+    "DIALOG": [
+      "Tranquil Fog",
+      "Bizarre Fog",
+      "Null Void"
+    ]
+  },
+  "${modID}:Colossus": {
+    "MOVES": [
+      "Ignite",
+      "Force Field"
+    ],
+    "NAME": "Colossus",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Colossus2": {
+    "MOVES": [
+      "Ignite",
+      "Force Field",
+      "Dimensional Cleaver"
+    ],
+    "NAME": "Colossus",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Leviathan": {
+    "MOVES": [
+      "Cascade",
+      "Azure Blade"
+    ],
+    "NAME": "Leviathan",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Leviathan2": {
+    "MOVES": [
+      "Cascade",
+      "Azure Blade",
+      "Perilous Tidefall"
+    ],
+    "NAME": "Leviathan",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Luminiera": {
+    "MOVES": [
+      "Aegis Merge",
+      "Iliad Merge",
+      "Blade Of Light"
+    ],
+    "NAME": "Luminiera",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Luminiera2": {
+    "MOVES": [
+      "Aegis Merge",
+      "Iliad Merge",
+      "Blade Of Light"
+    ],
+    "NAME": "Luminiera",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Tiamat": {
+    "MOVES": [
+      "Wind Torrent",
+      "Crippling Storm"
+    ],
+    "NAME": "Tiamat",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Tiamat2": {
+    "MOVES": [
+      "Wind Torrent",
+      "Crippling Storm",
+      "Terror Absolute"
+    ],
+    "NAME": "Tiamat",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Yggdrasil": {
+    "MOVES": [
+      "Luminox Genesi",
+      "Axis Mundi",
+      "SongOfGrace"
+    ],
+    "NAME": "Yggdrasil",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Yggdrasil2": {
+    "MOVES": [
+      "Luminox Genesi",
+      "Axis Mundi",
+      "SongOfGrace"
+    ],
+    "NAME": "Yggdrasil",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Alexiel": {
+    "MOVES": [
+      "Uncrossable Realm",
+      "Mirror Blade Eruption",
+      "Mirror Blade Helix"
+    ],
+    "NAME": "Alexiel",
+    "DIALOG": [
+      "I accept your challenge.",
+      "Can you withstand my mightiest attack?"
+    ]
+  },
+  "${modID}:Europa": {
+    "MOVES": [
+      "Floral Prison",
+      "Mana Blast",
+      "Taurus Blight"
+    ],
+    "NAME": "Europa",
+    "DIALOG": [
+      "Such is our fate, so shall our crossing be.",
+      "Realize firsthand, this Mercurial luster."
+    ]
+  },
+  "${modID}:Grimnir": {
+    "MOVES": [
+      "Rambling",
+      "Divine Wind",
+      "Holy Ray Of Purification",
+      "Flee"
+    ],
+    "NAME": "Grimnir",
+    "DIALOG": [
+      "It is I... the Dancing Mad Cyclone! Grrriiiiiiimnir!",
+      "Now is the hour for my right hand to be set free from its proscription...",
+      "Woah! Hey, time out!",
+      "Know this... One thrust of this spear shall cut thee down!",
+      "Thou'dst do well to engrave this upon thy heart.",
+      "My winds... shall bring forth ruin!",
+      "With my hand... I shall howl out thy demise!",
+      "Gah!! ... No cool lines come to mind!",
+      "May the heavens tremble, may the earth be cleft asunder, and may myriad evils be exterminated!"
+    ]
+  },
+  "${modID}:Shiva": {
+    "MOVES": [
+      "Rudra",
+      "Sri Rudram",
+      "Awaken Inner Eye"
+    ],
+    "NAME": "Shiva",
+    "DIALOG": [
+      "By my hand, I will conduct your funerary rites to the dark abyss.",
+      "By the purifying light of destruction, return to nothing!"
+    ]
+  },
+  "${modID}:Athena": {
+    "MOVES": [
+      "Tetradrachm",
+      "Aigis Februs",
+      "Minerva Thrust"
+    ],
+    "NAME": "Athena",
+    "DIALOG": [
+      "It will ward off any calamity...Divine Shield Aegis!",
+      "Explode! Minerva Thrust!"
+    ]
+  },
+  "${modID}:AthenaOwl": {
+    "MOVES": [
+      "Minerva Echo"
+    ],
+    "NAME": "Glafkos",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Grani": {
+    "MOVES": [
+      "Nohl Sarav Valge",
+      "Vlac",
+      "Thunderflash Bow"
+    ],
+    "NAME": "Grani",
+    "DIALOG": [
+      "..."
+    ]
+  },
+  "${modID}:Baal": {
+    "MOVES": [
+      "Half-Step",
+      "Rock Out",
+      "Anthem of Solomon"
+    ],
+    "NAME": "Baal",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Garuda": {
+    "MOVES": [
+      "Garutman",
+      "Rasayana",
+      "Surendra-jit"
+    ],
+    "NAME": "Garuda",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:primalbit": {
+    "MOVES": [
+      "Propagation",
+      "Emyr Flash",
+      "Punishment"
+    ],
+    "NAME": "Primal Bit",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:GoDragon": {
+    "MOVES": [
+      "Sweeping Thrust",
+      "Immortal Thrust",
+      "Hallow Barrage"
+    ],
+    "NAME": "Wyvern Order",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:BronzeSlime": {
+    "MOVES": [
+      "Tackle",
+      "Hide"
+    ],
+    "NAME": "Jar Slime",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:GoldSlime": {
+    "MOVES": [
+      "Tackle",
+      "Hide",
+      "Call for Backup"
+    ],
+    "NAME": "King Goldslime",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:SilverSlime": {
+    "MOVES": [
+      "Tackle",
+      "Hide",
+      "Call for Backup"
+    ],
+    "NAME": "King Silverslime",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:ArcarumJustice": {
+    "MOVES": [
+      "Jurist Scales",
+      "Abraxas",
+      "Remembrance"
+    ],
+    "NAME": "Justice",
+    "DIALOG": [
+      "Let me witness how thee scale!",
+      "Draw thy blade.",
+      "My scale be the arbiter of right and wrong!",
+      "I have certainly ascertained the justice in thy soul...",
+      "The scale without the sword is powerless, the sword without the scale is violence."
+    ]
+  },
+  "${modID}:ArcarumHangedMan": {
+    "MOVES": [
+      "Golden Dawn",
+      "Eye of the Blackstar",
+      "Bottomless Ravine"
+    ],
+    "NAME": "The Hanged Man",
+    "DIALOG": [
+      "Hahaha!",
+      "Make sure to entertain me.",
+      "Hahaha! Show me more of how you endure hardships!"
+    ]
+  },
+  "${modID}:ArcarumDeath": {
+    "MOVES": [
+      "Death Waltz",
+      "Deathly Thirteen"
+    ],
+    "NAME": "Death",
+    "DIALOG": [
+      "We finally meet... found yooou... My.... beloved....!",
+      "Found yooou.... found yooou...",
+      "Kukihi!"
+    ]
+  },
+  "${modID}:ArcarumTemperance": {
+    "MOVES": [
+      "Blue Oath",
+      "Samekh",
+      "Opulence's Cost",
+      "Red Oath",
+      "Yesodh",
+      "Miser's Cost"
+    ],
+    "NAME": "Temperance",
+    "DIALOG": [
+      "Now, thy cup shall be measured.",
+      "Dissatisfying",
+      "Fill, O my cups."
+    ]
+  },
+  "${modID}:ArcarumDevil": {
+    "MOVES": [
+      "All Fall Down",
+      "Power Plant",
+      "Hellfire"
+    ],
+    "NAME": "The Devil",
+    "DIALOG": [
+      "..."
+    ]
+  },
+  "${modID}:ArcarumTower": {
+    "MOVES": [
+      "Callous Fist",
+      "Goddess Link",
+      "Disaster"
+    ],
+    "NAME": "The Tower",
+    "DIALOG": [
+      "..."
+    ]
+  },
+  "${modID}:ArcarumStar": {
+    "MOVES": [
+      "Stardeath",
+      "Deimos Strike",
+      "Heavenly Glory"
+    ],
+    "NAME": "The Star",
+    "DIALOG": [
+      "Come, 'tis time for prayers.",
+      "Doradoradoradoradoraah!",
+      "Thy wish... hast been granted!",
+      "I acknowledge... Thee... O, new contractor!"
+    ]
+  },
+  "${modID}:ArcarumMoon": {
+    "MOVES": [
+      "Phase of the Moon",
+      "Koph",
+      "Phobos Blast"
+    ],
+    "NAME": "The Moon",
+    "DIALOG": [
+      "I am that whose radiance bewitches!",
+      "Crumble!",
+      "O lost people, ruin upon thee!"
+    ]
+  },
+  "${modID}:ArcarumSun": {
+    "MOVES": [
+      "Resh",
+      "Primal Flare",
+      "Coronal Ejection"
+    ],
+    "NAME": "The Sun",
+    "DIALOG": [
+      "..."
+    ]
+  },
+  "${modID}:ArcarumJudgement": {
+    "MOVES": [
+      "Trumpet of Sentencing",
+      "Verdict Sphere",
+      "Guilty Verdict"
+    ],
+    "NAME": "Judgement",
+    "DIALOG": [
+      "Surely death shall expiate your sin...",
+      "It is time for your judgement.",
+      "You are guilty...!",
+      "Meow, meaow!"
+    ]
+  },
+  "${modID}:OdiousMortality": {
+    "MOVES": [
+      "Redundrago",
+      "Vendarum",
+      "Annraeternia"
+    ],
+    "NAME": "Nihuyvintae",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:OdiousProsperity": {
+    "MOVES": [
+      "Irdizuradea",
+      "Jadubertzeum",
+      "Varrazunalaqu"
+    ],
+    "NAME": "Belmervolk",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:OdiousLiberation": {
+    "MOVES": [
+      "Petapolyuresfsi",
+      "Diaskorgida",
+      "Nosorgoidea"
+    ],
+    "NAME": "Macutanmacar",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:OdiousDesire": {
+    "MOVES": [
+      "Pyrgodaxthlao",
+      "Taavaphaoneh",
+      "Zahavmeshul"
+    ],
+    "NAME": "Narophirmidas",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:OdiousSanctity": {
+    "MOVES": [
+      "Odimiroforto",
+      "Agimamnarede",
+      "Timaretucre"
+    ],
+    "NAME": "Zamalvoch",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:OdiousKnowledge": {
+    "MOVES": [
+      "Hadhnagpaphal",
+      "Asmihilaav",
+      "Anurnalkka"
+    ],
+    "NAME": "Papahlukruva",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:Akasha": {
+    "MOVES": [
+      "Waiting",
+      "Time Warp",
+      "Blood Lightning",
+      "Megiddo",
+      "Ancient Flare",
+      "Karma",
+      "Purification",
+      "Sky-Rift"
+    ],
+    "NAME": "Akasha",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:TheWorld": {
+    "MOVES": [
+      "Waiting",
+      "Entropy",
+      "Meteor",
+      "Projected World",
+      "Celestial Sphere",
+      "The Ultimate Answer",
+      "Mebicomet",
+      "Starry Nova",
+      "Terminal Crisis"
+    ],
+    "NAME": "Inchoate World",
+    "DIALOG": [
+      "A new Order.",
+      "Accept fate.",
+      "Let us execute the necessary ritual.",
+      "Still incomplete...",
+      "This is the birth a new God.",
+      "Everything is within my reach.",
+      "A trial, huh?",
+      "This feeling... not bad.",
+      "You will not change the conclusion.",
+      "Witness!",
+      "Don't get cocky.",
+      "Your death will not be without meaning.",
+      "I AM GOD!",
+      "I won't forgive you",
+      "So you would oppose fate?",
+      "Your is a necessary sacrifice"
+    ]
+  },
+  "${modID}:FaaHL": {
+    "MOVES": [
+      "Paradise Lost",
+      "Phosphorus",
+      "Iblis",
+      "Malus",
+      "Seven Trumpets",
+      "Orbital Blackness",
+      "Phosphorus Apocalypse",
+      "Iblis Apocalypse",
+      "Axiom",
+      "Gopherwood Ark",
+      "The End"
+    ],
+    "NAME": "Lucilius",
+    "DIALOG": [
+      "THE END!",
+      "Pointless.",
+      "I've no intention of stopping here.",
+      "Burn this sight into your eyes.",
+      "Things like existence are merely there for the gods' convenience.",
+      "How Pathetic.",
+      "Is there any meaning to that life of yours?",
+      "Irregularities will be purged.",
+      "Die.",
+      "Disappear.",
+      "Disintegrate to ash.",
+      "Tremble before oblivion!",
+      "And await your end!",
+      "The apocalypse shall soon be realised...",
+      "Are there any grounds for that boldness of yours?",
+      "Cast away that flesh, onward to the next dimension...",
+      "Have I been surpassed....?!",
+      "Utter impertinence...",
+      "I shall show you the difference between our power",
+      "Fall into the abyss of chaos!",
+      "Become an offering to the apocalypse!",
+      "Phosphorus!",
+      "Fall.",
+      "Run... if you can, that is.",
+      "Scatter in shame.",
+      "Die.",
+      "I'll have you disappear.",
+      "Nowhere for you to run.",
+      "Disappear.",
+      "Tremble before the oblivion...",
+      "Paradise Lost!",
+      "Paradise Lost!",
+      "Oh...?",
+      "How?",
+      "Shit...",
+      "What an irritating lot...",
+      "Still putting up a fight...?"
+    ]
+  },
+  "${modID}:Wilnas": {
+    "MOVES": [
+      "Magma Chamber",
+      "Heat Ray",
+      "Hadron Sphere"
+    ],
+    "NAME": "Wilnas the Vermillion",
+    "DIALOG": [
+      "Not even ashes of that pigment shall remain.",
+      "Not even your death throes shall remain!",
+      "I'll show you my undying flames!",
+      "You're small, but you're strong"
+    ]
+  },
+  "${modID}:Wamdus": {
+    "MOVES": [
+      "Hydrozoa",
+      "Forceful Bite",
+      "Innocence Drain"
+    ],
+    "NAME": "Wamdus the Azure",
+    "DIALOG": [
+      "Looooks deeeeliciooouuusss",
+      "I'll eaaaaaaaat yoooooou",
+      "Eaaaaaaaaaaaaaaatttttttt!",
+      "Tiiiiinyyyy buuuuut seeeeems taaaaastyyyyy!"
+    ]
+  }
+}

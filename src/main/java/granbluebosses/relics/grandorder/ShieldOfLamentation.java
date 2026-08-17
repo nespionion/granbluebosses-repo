@@ -1,0 +1,71 @@
+package granbluebosses.relics.grandorder;
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
+import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
+import granbluebosses.GranblueBosses;
+import granbluebosses.relics.BaseRelic;
+import granbluebosses.util.primalcards.PrimalColor;
+
+public class ShieldOfLamentation extends BaseRelic {
+
+    public static final String RELIC_ID = GranblueBosses.makeID("ShieldOfLamentation");
+    public static final String NAME = "Shield Of Lamentation";
+    public int damage;
+
+    public ShieldOfLamentation() {
+        super(
+                RELIC_ID,       // ID
+                "ShieldOfLamentation",
+                PrimalColor.GBF_PRIMAL_COLOR,
+                RelicTier.SPECIAL,                              // Rarity
+                LandingSound.HEAVY);                            // SFX
+
+        this.damage = this.calculateDamage();
+    }
+
+    @Override
+    public void atBattleStart() {
+        super.atBattleStart();
+        this.updateDescription(AbstractDungeon.player.chosenClass);
+    }
+
+    @Override
+    public void onUseCard(AbstractCard targetCard, UseCardAction useCardAction) {
+        if (targetCard.type == AbstractCard.CardType.ATTACK){
+            addToBot(new DamageAllEnemiesAction(AbstractDungeon.player, this.damage, DamageInfo.DamageType.HP_LOSS, AbstractGameAction.AttackEffect.NONE));
+        }
+        super.onUseCard(targetCard, useCardAction);
+    }
+
+    @Override
+    public void updateDescription(AbstractPlayer.PlayerClass c) {
+        this.damage = this.calculateDamage();
+        super.updateDescription(c);
+    }
+
+    @Override
+    public String getUpdatedDescription() {
+        this.damage = this.calculateDamage();
+        this.description = this.DESCRIPTIONS[0] + this.damage + this.DESCRIPTIONS[1];
+        return this.description;
+    }
+
+    private int calculateDamage(){
+        if (AbstractDungeon.currMapNode != null && AbstractDungeon.getCurrRoom() != null){
+            return  Math.max(1, 1 + (AbstractDungeon.ascensionLevel / 10));
+        } else {
+            return 1;
+        }
+    }
+
+    @Override
+    public AbstractRelic makeCopy() {
+        return new ShieldOfLamentation();
+    }
+}
